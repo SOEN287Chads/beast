@@ -1,0 +1,131 @@
+/*NavBar*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	position: sticky;
+}
+
+div {
+	top: 0px;
+	z-index: 3;
+	display: flex;
+	position: sticky;
+	padding: 30px 70px;
+	transform: translate3d(0, 0, 0);
+	justify-content: space-between;
+	background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+}
+
+html {
+	font-size: x-large;
+	font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+}
+
+body {
+	color: white;
+}
+
+header {
+	min-height: 100vh;
+	text-align: center;
+}
+
+header h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#titles {
+	padding: 10px;
+	color: white;
+	font-weight: 900;
+	font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+}
+
+header::before {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: "";
+	z-index: -1;
+	position: absolute;
+	background: url(gym.jpeg);
+	background-size: cover;
+}
+
+.container {
+	z-index: 2;
+	top: 100vh;
+	color: grey;
+	padding: 40px;
+	display: block;
+	line-height: 30px;
+	position: absolute;
+	background: rgb(0, 0, 0);
+}
+
+.navbar li {
+	padding: 0 15px;
+	display: inline-block;
+}
+
+.navbar li a {
+	color: #fff;
+	transition: all .5s ease 0s;
+}
+
+.navbar li a:hover {
+	color: #004c74;
+}
+
+.loginSignUp {
+	color: #fff;
+	font-size: 15px;
+	border-radius: 5px;
+	padding: 10px 25px;
+	letter-spacing: 2px;
+	background: #004c74;
+}
+
+/*Footer*/
+#footerHead {
+	text-align: left;
+	font-weight: bold;
+	font-size: larger;
+}
+
+footer table a {
+	color: white;
+	text-decoration: underline;
+}
+
+.footerTable {
+	width: 100%;
+	align-items: center;
+}
+
+footer {
+	left: 0;
+	bottom: 0;
+	z-index: 0;
+	width: 100%;
+	padding: 2%;
+	color: white;
+	position: fixed;
+	font-size: large;
+	font-weight: 100;
+	padding-left: 5%;
+	padding-right: 5%;
+	background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+}
