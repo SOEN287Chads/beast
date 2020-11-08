@@ -6,7 +6,7 @@
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width">
     <title>Shopping cart</title>
-    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/product_cart.css" media="screen" rel="stylesheet" type="text/css">
     <script src="js/view-cart.js"></script>
 </head>
 <body class="shopping-cart">
