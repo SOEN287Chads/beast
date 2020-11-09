@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(60, 60, 60);
+}
+
+.container1 {
+  position: relative;
+}
+
+.container1 img {
+  width: 100%;
+
+}
+
+.in-barbell-txt {
+  position: absolute;
+  bottom: 50px;
+  margin-left: 500px;
+  font-size: 600%;
+  color: white;
+}
+
+.titletxt {
+  color: white;
+  font-size: 60px;
+  margin: 0px 200px;
+  text-align: center;
+
+}
+
+.bodytxt {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin: 0px 200px;
+}
+
+.containerimgrow {
+  float: left;
+  padding: 10px;
+  padding-left: 9%;
+
+}
