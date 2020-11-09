@@ -7,6 +7,41 @@
   <meta charset="utf-8">
   <title>Sign Up Page</title>
   <style media="screen">
+    nav {
+      margin: 0;
+      top: 0px;
+      padding: 10px 25px;
+      justify-content: space-between;
+      position: sticky;
+      background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+      font-size: x-large;
+      font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+      color: white;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .navbar li {
+      padding: 0 15px;
+      display: inline-block;
+    }
+
+    .navbar li a {
+      color: #fff;
+      transition: all .5s ease 0s;
+    }
+
+    .navbar li a:hover {
+      color: #004c74;
+    }
+
+    .terms:hover {
+      color: #fff;
+      transition: all .5s ease 0s;
+    }
+
     h1 {
       padding: 30px;
       margin: 20px 0;
@@ -20,8 +55,9 @@
     }
 
     body {
+      margin: 0;
       font-family: Arial;
-      background-color: #373a40;
+      background-color: #0b0b0d;
       font-family: 'Kaushan Script', cursive;
     }
 
@@ -29,12 +65,13 @@
       width: 50%;
       padding: 10px;
       margin: 20px 0;
-      background: #373a40;
+      background: #0b0b0d;
       border-bottom-color: #f1f1f1;
       border-width: 0 0 3px 0;
       color: grey;
       font-size: 16px;
     }
+
 
 
     /* Set a style for all buttons */
@@ -54,10 +91,12 @@
 
     input:hover {
       border-radius: 100px;
+      background-color: #474a56;
+      transition: all 5s ease 0s;
     }
 
     button:hover {
-      opacity: 7;
+      opacity: 5;
       animation: shake 1.2s;
       animation-iteration-count: infinite;
     }
@@ -118,6 +157,14 @@
 </head>
 
 <body>
+  <nav>
+    <ul class="navbar">
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">PRODUCTS</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+  </nav>
   <h1>Sign Up!</h1>
   <form class="" action="index.html" method="post">
     <div class="container">
@@ -128,7 +175,7 @@
       <input type="password" placeholder="Confirm Password" name="password-confirm" required><br>
 
       <p>By creating an account I hereby agree to the
-        <a href="#">Terms and Conditions</a> </p>
+        <a class="terms" href="#">Terms and Conditions</a> </p>
 
       </p />
 
