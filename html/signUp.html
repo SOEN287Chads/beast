@@ -3,37 +3,138 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <title>Sign Up Page</title>
+  <style media="screen">
+    h1 {
+      padding: 30px;
+      margin: 20px 0;
+      color: #f1f1f1;
+    }
+
+    a,
+    p {
+      color: grey;
+      margin: 20px 0;
+    }
+
+    body {
+      font-family: Arial;
+      background-color: #373a40;
+      font-family: 'Kaushan Script', cursive;
+    }
+
+    input {
+      width: 50%;
+      padding: 10px;
+      margin: 20px 0;
+      background: #373a40;
+      border-bottom-color: #f1f1f1;
+      border-width: 0 0 3px 0;
+      color: grey;
+      font-size: 16px;
+    }
+
+
+    /* Set a style for all buttons */
+    button {
+      background-color: green;
+      color: #f1f1f1;
+      padding: 20px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      width: 50%;
+      opacity: 0.5;
+      font-family: 'Kaushan Script', cursive;
+      font-size: 30px;
+    }
+
+    input:hover {
+      border-radius: 100px;
+    }
+
+    button:hover {
+      opacity: 7;
+      animation: shake 1.2s;
+      animation-iteration-count: infinite;
+    }
+
+
+    @keyframes shake {
+      0% {
+        transform: translate(1px, 1px) rotate(0deg);
+      }
+
+      10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+      }
+
+      20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+      }
+
+      30% {
+        transform: translate(3px, 2px) rotate(0deg);
+      }
+
+      40% {
+        transform: translate(1px, -1px) rotate(1deg);
+      }
+
+      50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+      }
+
+      60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+      }
+
+      70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+      }
+
+      80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+      }
+
+      90% {
+        transform: translate(1px, 2px) rotate(0deg);
+      }
+
+      100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+      }
+    }
+
+
+    /* Add padding to container elements */
+    .container {
+      padding: 25px;
+    }
+  </style>
 </head>
 
 <body>
   <h1>Sign Up!</h1>
-  <p>Fill this form to to unleash the Beast within you! (And create an account while youre at it 😉)</p>
   <form class="" action="index.html" method="post">
     <div class="container">
-      <label for="email">Email</label>
-      <input type="text" placeholder="YourEmail@mail.com" name="email" required><br>
+      <input type="text" placeholder="Email" name="email" required><br>
 
-      <label for="password">Password</label>
-      <input type="text" placeholder="Choose Password" name="password" required><br>
+      <input type="password" placeholder="Choose Password" name="password" required><br>
 
-      <label for="password-confirm">Confirm Password</label>
-      <input type="text" placeholder="Confirm Password" name="password-confirm" required><br>
-
-      <label>
-        <input type="checkbox" checked="checked" name="rememberMe"> Remember me
-      </label>
+      <input type="password" placeholder="Confirm Password" name="password-confirm" required><br>
 
       <p>By creating an account I hereby agree to the
         <a href="#">Terms and Conditions</a> </p>
 
       </p />
 
-      <div class="myButtons">
-        <button type="button" class="cancelButton">Cancel</button>
-        <button type="submit" name="signUpButton">Sign me up!</button>
-      </div>
+
+      <button type="submit" name="signUpButton">Let's go!</button>
+
     </div>
 
   </form>
