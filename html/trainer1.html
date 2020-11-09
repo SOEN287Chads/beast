@@ -5,30 +5,67 @@
   <meta charset="utf-8">
   <title>Trainer 1</title>
   <style media="screen">
-  body {
-    background-color:#f5efef;
-  }
+    nav {
+      margin: 0;
+      top: 0px;
+      padding: 10px 25px;
+      justify-content: space-between;
+      position: sticky;
+      background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+      font-size: x-large;
+      font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+      color: white;
+    }
 
-  h1 {
-    color: #f5efef;
-  }
-  h2 {
-    color: #e97171;
-  }
-  p{
-    color: #931a25;
-  }
+    a {
+      text-decoration: none;
+    }
 
-  hr {
-    color: #ffcb8e;
-    border: 1px dotted;
+    .navbar li {
+      padding: 0 15px;
+      display: inline-block;
+    }
 
-  }
+    .navbar li a {
+      color: #fff;
+      transition: all .5s ease 0s;
+    }
+
+    .navbar li a:hover {
+      color: #004c74;
+    }
+
+    html {
+      font-size: x-large;
+      font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      color: #f5efef;
+      margin: 0;
+      background: rgb(0, 0, 0);
+    }
+
+    h1,
+    p {
+      color: #f5efef;
+    }
+
+    h2 {
+      color: #d3d5fd;
+    }
+
+    hr {
+      border: 0;
+
+    }
+
     .top-container {
       position: relative;
       text-align: center;
       color: white;
       font-size: 1em;
+      margin-bottom: 300px;
     }
 
     .about {
@@ -66,18 +103,17 @@
       position: absolute;
       top: 1.5rem;
       left: 1.5rem;
-      font-size: 4rem;
+      font-size: 5rem;
       font-family: Montserrat, sans-serif;
-      border: 5px solid;
-      border-color: ##f5efef;
-      border-radius: 30%;
+
+
 
     }
 
-    .angela1{
+    .angela1 {
       border: 0;
       border-color: ##f5efef;
-      border-radius: 5%;
+
     }
 
     .angela2 {
@@ -86,8 +122,6 @@
       margin-left: 30px;
       float: right;
       border: 0;
-      border-color: ##f5efef;
-      border-radius: 5%;
     }
 
     .kettlebell {
@@ -96,18 +130,23 @@
       margin-right: 30px;
       float: left;
       border: 0;
-      border-color: ##f5efef;
-      border-radius: 5%;
     }
   </style>
 </head>
 
 <body>
+  <nav>
+    <ul class="navbar">
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">PRODUCTS</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+  </nav>
   <div class="top-container">
     <img class="angela1" width="100%" src="https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="Angela">
     <h1 class="top-left">Meet Angela.</h1>
   </div>
-  <hr>
 
   <div class="middle-container">
     <div class="about">
