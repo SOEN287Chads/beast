@@ -24,20 +24,38 @@ body {
   width: 100%;
 }
 
+.offer-container {
+   position: relative;
+   background-image: url('../img/barbell3.jpg');
+   background-size: cover;
+}
+
+.offer-container::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.50);
+}
+
 .titletxt {
-  color: black;
+  position: relative;
+  color: white;
   font-family: Arial, Georgia, serif;
   font-style: italic;
   font-size: 50px;
-  margin: 0px 200px;
+  margin: 0px 400px;
   text-align: center;
 }
 
 .bodytxt {
-  color: black;
+  position: relative;
+  color: white;
   text-align: center;
   font-size: 40px;
-  margin: 0px 200px;
+  margin: 0px 400px;
   margin-bottom: 10%;
 }
 
@@ -70,10 +88,10 @@ body {
   color: black;
   font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
 	letter-spacing:0.1em;
-	margin: 40px auto;
+	margin: 40px 90px;
 	text-transform: lowercase;
 	line-height: 145%;
-	font-size: 14pt;
+	font-size: 18pt;
 	font-variant: small-caps;
 }
 
