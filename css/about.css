@@ -7,6 +7,17 @@ h1, h2, p {
   margin: 0;
 }
 
+.header {
+  top: 0px;
+  z-index: 3;
+  display: flex;
+  position: sticky;
+  padding: 30px 70px;
+  transform: translate3d(0, 0, 0);
+  justify-content: space-between;
+  background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+}
+
 .container1 {
   position: relative;
 }
@@ -65,7 +76,7 @@ h1, h2, p {
 }
 
 .containerimgrow {
-  background-color: #5680E9;
+  background-color: rgb(110, 109, 109);
   position: relative;
 }
 
@@ -82,7 +93,7 @@ h1, h2, p {
 
 .col h2 {
   font: bold 70px "Century Schoolbook", Georgia, Times, serif;
-  color: #add4e8;
+  color: white;
   line-height: 90%;
   margin: .2em 0 .4em 0;
   letter-spacing: -2px;
@@ -110,13 +121,15 @@ h1, h2, p {
 }
 
 .container-contact {
-  background-color: #9B786F;
+  background-color: white;
 }
 .questions {
   font: bold 70px "Century Schoolbook", Georgia, Times, serif;
- 	color: rgb(249, 231, 7);
+ 	color: black;
  	letter-spacing: -2px;
   text-align: center;
+  margin-top: 75px;
+  margin-bottom: 50px;
 }
 
 .contact-us {
@@ -139,23 +152,23 @@ h1, h2, p {
 
 .fname {
   margin-top: 6%;
-  width: 79%;
+  width: 90%;
   margin-bottom: 3%;
 
 }
 
 .lname {
-  width: 79%;
+  width: 90%;
   margin-bottom: 3%;
 }
 
 .email {
-  width: 79%;
+  width: 90%;
   margin-bottom: 3%;
 }
 
 .subject {
-  width: 80%;
+  width: 91.5%;
 
 
 }
