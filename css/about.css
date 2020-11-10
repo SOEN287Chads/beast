@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(60, 60, 60);
+  background-color: white;
+  margin: 0px;
 }
 
 .container1 {
@@ -7,36 +8,74 @@ body {
 }
 
 .container1 img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 
 }
 
 .in-barbell-txt {
   position: absolute;
-  bottom: 50px;
-  margin-left: 500px;
+  top: 80%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  text-align: center;
   font-size: 600%;
   color: white;
+  width: 100%;
 }
 
 .titletxt {
-  color: white;
-  font-size: 60px;
+  color: black;
+  font-family: Arial, Georgia, serif;
+  font-style: italic;
+  font-size: 50px;
   margin: 0px 200px;
   text-align: center;
-
 }
 
 .bodytxt {
-  color: white;
+  color: black;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   margin: 0px 200px;
+  margin-bottom: 10%;
 }
 
 .containerimgrow {
-  float: left;
-  padding: 10px;
-  padding-left: 9%;
+  background-color: rgb(189, 189, 189);
+  position: relative;
+}
 
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.col {
+  flex: 50%;
+}
+
+.col h2 {
+  font: bold 70px "Century Schoolbook", Georgia, Times, serif;
+  color: black;
+  line-height: 90%;
+  margin: .2em 0 .4em 0;
+  letter-spacing: -2px;
+  text-align: center;
+  margin-top: 15%;
+
+}
+
+.col img {
+  height: auto;
+  max-width: 100%;
+}
+
+.questions {
+  text-align: center;
+}
+
+.container-contact {
+
+  margin-top: 400px;
 }
