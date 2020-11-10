@@ -1,4 +1,4 @@
-<!--This will be the Sign up page-->
+<!--Sign up page-->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -6,118 +6,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <title>Sign Up Page</title>
-  <style media="screen">
-    h1 {
-      padding: 30px;
-      margin: 20px 0;
-      color: #f1f1f1;
-    }
-
-    a,
-    p {
-      color: grey;
-      margin: 20px 0;
-    }
-
-    body {
-      font-family: Arial;
-      background-color: #373a40;
-      font-family: 'Kaushan Script', cursive;
-    }
-
-    input {
-      width: 50%;
-      padding: 10px;
-      margin: 20px 0;
-      background: #373a40;
-      border-bottom-color: #f1f1f1;
-      border-width: 0 0 3px 0;
-      color: grey;
-      font-size: 16px;
-    }
-
-
-    /* Set a style for all buttons */
-    button {
-      background-color: green;
-      color: #f1f1f1;
-      padding: 20px;
-      margin: 10px 0;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      width: 50%;
-      opacity: 0.5;
-      font-family: 'Kaushan Script', cursive;
-      font-size: 30px;
-    }
-
-    input:hover {
-      border-radius: 100px;
-    }
-
-    button:hover {
-      opacity: 7;
-      animation: shake 1.2s;
-      animation-iteration-count: infinite;
-    }
-
-
-    @keyframes shake {
-      0% {
-        transform: translate(1px, 1px) rotate(0deg);
-      }
-
-      10% {
-        transform: translate(-1px, -2px) rotate(-1deg);
-      }
-
-      20% {
-        transform: translate(-3px, 0px) rotate(1deg);
-      }
-
-      30% {
-        transform: translate(3px, 2px) rotate(0deg);
-      }
-
-      40% {
-        transform: translate(1px, -1px) rotate(1deg);
-      }
-
-      50% {
-        transform: translate(-1px, 2px) rotate(-1deg);
-      }
-
-      60% {
-        transform: translate(-3px, 1px) rotate(0deg);
-      }
-
-      70% {
-        transform: translate(3px, 1px) rotate(-1deg);
-      }
-
-      80% {
-        transform: translate(-1px, -1px) rotate(1deg);
-      }
-
-      90% {
-        transform: translate(1px, 2px) rotate(0deg);
-      }
-
-      100% {
-        transform: translate(1px, -2px) rotate(-1deg);
-      }
-    }
-
-
-    /* Add padding to container elements */
-    .container {
-      padding: 25px;
-    }
-  </style>
+  <link rel="stylesheet" href="../css/signUp.css">
 </head>
 
 <body>
+  <nav>
+    <ul class="navbar">
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="#">PRODUCTS</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+  </nav>
   <h1>Sign Up!</h1>
   <form class="" action="index.html" method="post">
     <div class="container">
@@ -128,7 +28,7 @@
       <input type="password" placeholder="Confirm Password" name="password-confirm" required><br>
 
       <p>By creating an account I hereby agree to the
-        <a href="#">Terms and Conditions</a> </p>
+        <a class="terms" href="#">Terms and Conditions</a> </p>
 
       </p />
 
