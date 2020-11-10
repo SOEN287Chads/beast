@@ -48,6 +48,8 @@ body {
 
 .row {
   display: flex;
+  align-items: center;
+  text-align: center;
   width: 100%;
 }
 
@@ -61,9 +63,18 @@ body {
   line-height: 90%;
   margin: .2em 0 .4em 0;
   letter-spacing: -2px;
-  text-align: center;
-  margin-top: 15%;
 
+}
+
+.col p {
+  color: black;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	margin: 40px auto;
+	text-transform: lowercase;
+	line-height: 145%;
+	font-size: 14pt;
+	font-variant: small-caps;
 }
 
 .col img {
@@ -72,10 +83,12 @@ body {
 }
 
 .questions {
+  font: bold 70px "Century Schoolbook", Georgia, Times, serif;
+ 	color: #333;
+ 	letter-spacing: -2px;
   text-align: center;
 }
 
 .container-contact {
-
-  margin-top: 400px;
+  margin-top: 50px;
 }
