@@ -1,0 +1,81 @@
+/*NavBar*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	position: sticky;
+}
+
+div {
+	top: 0px;
+	z-index: 3;
+	display: flex;
+	position: sticky;
+	padding: 30px 70px;
+	transform: translate3d(0, 0, 0);
+	justify-content: space-between;
+	background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+	font-size: x-large;
+	font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+}
+
+.navbar li {
+	padding: 0 15px;
+	display: inline-block;
+}
+
+.navbar li a {
+	color: #fff;
+	transition: all .5s ease 0s;
+}
+
+.navbar li a:hover {
+	color: #004c74;
+}
+
+.loginSignUp {
+	color: #fff;
+	font-size: 15px;
+	border-radius: 5px;
+	padding: 10px 25px;
+	letter-spacing: 2px;
+	background: #004c74;
+}
+/*Footer*/
+#footerHead {
+	text-align: left;
+	font-weight: bold;
+	font-size: larger;
+}
+
+footer table a {
+	color: white;
+	text-decoration: underline;
+}
+
+.footerTable {
+	width: 100%;
+	align-items: center;
+}
+
+footer {
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	width: 100%;
+	padding: 2%;
+	color: white;
+	position: fixed;
+	font-size: large;
+	font-weight: 100;
+	padding-left: 5%;
+	padding-right: 5%;
+	background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+}
