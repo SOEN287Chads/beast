@@ -3,6 +3,10 @@ body {
   margin: 0px;
 }
 
+h1, h2, p {
+  margin: 0;
+}
+
 .container1 {
   position: relative;
 }
@@ -28,6 +32,8 @@ body {
    position: relative;
    background-image: url('../img/barbell3.jpg');
    background-size: cover;
+   height: 100%;
+   padding-bottom: 10%;
 }
 
 .offer-container::before {
@@ -37,7 +43,7 @@ body {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: rgba(0,0,0,0.50);
+    background-color: rgba(0,0,0,.55);
 }
 
 .titletxt {
@@ -56,11 +62,10 @@ body {
   text-align: center;
   font-size: 40px;
   margin: 0px 400px;
-  margin-bottom: 10%;
 }
 
 .containerimgrow {
-  background-color: rgb(189, 189, 189);
+  background-color: #5680E9;
   position: relative;
 }
 
@@ -77,7 +82,7 @@ body {
 
 .col h2 {
   font: bold 70px "Century Schoolbook", Georgia, Times, serif;
-  color: black;
+  color: #add4e8;
   line-height: 90%;
   margin: .2em 0 .4em 0;
   letter-spacing: -2px;
@@ -85,7 +90,7 @@ body {
 }
 
 .col p {
-  color: black;
+  color: #e4e5ec;
   font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
 	letter-spacing:0.1em;
 	margin: 40px 90px;
@@ -100,13 +105,97 @@ body {
   max-width: 100%;
 }
 
+#grip {
+  filter: brightness(200%);
+}
+
+.container-contact {
+  background-color: #9B786F;
+}
 .questions {
   font: bold 70px "Century Schoolbook", Georgia, Times, serif;
- 	color: #333;
+ 	color: rgb(249, 231, 7);
  	letter-spacing: -2px;
   text-align: center;
 }
 
-.container-contact {
-  margin-top: 50px;
+.contact-us {
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #5A2FF9;
+  width: 40%;
+  margin: auto;
+  align-items: center;
+}
+
+.contact-us i {
+  position: absolute;
+  padding-top: 1%;
+  padding-left: 2%;
+  font-size: 30px;
+}
+
+.fname {
+  margin-top: 6%;
+  width: 79%;
+  margin-bottom: 3%;
+
+}
+
+.lname {
+  width: 79%;
+  margin-bottom: 3%;
+}
+
+.email {
+  width: 79%;
+  margin-bottom: 3%;
+}
+
+.subject {
+  width: 80%;
+
+
+}
+
+.sub {
+  width: 30%;
+  height: 20%;
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+input[type=text] {
+  font-size: 40px;
+  height: 40px;
+  width: 100%;
+}
+
+
+input[type=email] {
+  font-size: 40px;
+  height: 40px;
+  width: 100%;
+}
+
+textarea {
+  font-size: 40px;
+  padding: 0;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+input[type=submit] {
+  width: 100%;
+  height: 60px;
+  background-color: yellow;
+  color: rgb(59, 59, 59);
+  padding: 14px 20px;
+  font-size: 30px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
 }
