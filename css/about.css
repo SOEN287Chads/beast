@@ -76,7 +76,7 @@ h1, h2, p {
 }
 
 .containerimgrow {
-  background-color: #5680E9;
+  background-color: rgb(110, 109, 109);
   position: relative;
 }
 
@@ -93,7 +93,7 @@ h1, h2, p {
 
 .col h2 {
   font: bold 70px "Century Schoolbook", Georgia, Times, serif;
-  color: rgb(38, 38, 38);
+  color: white;
   line-height: 90%;
   margin: .2em 0 .4em 0;
   letter-spacing: -2px;
