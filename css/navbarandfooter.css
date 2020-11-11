@@ -60,11 +60,6 @@ footer table a {
 	text-decoration: underline;
 }
 
-.footerTable {
-	width: 100%;
-	align-items: center;
-}
-
 footer {
 	left: 0;
 	bottom: 0;
@@ -78,4 +73,9 @@ footer {
 	padding-left: 5%;
 	padding-right: 5%;
 	background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+}
+
+.footerTable {
+	width: 100%;
+	align-items: center;
 }

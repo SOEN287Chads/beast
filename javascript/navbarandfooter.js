@@ -1,4 +1,4 @@
-let nav =
+let navbar =
 	'<nav>\
 <ul class="navbar">\
     <li><a href="home.html">HOME</a></li>\
@@ -47,5 +47,5 @@ let footer =
     </tr>\
 </table>';
 
-document.getElementById('navigationbar').innerHTML = nav;
+document.getElementById('navigationbar').innerHTML = navbar;
 document.getElementById('footer').innerHTML = footer;
