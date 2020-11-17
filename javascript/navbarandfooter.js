@@ -3,7 +3,7 @@ let navbar =
 <ul class="navbar">\
     <li><a href="home.html">HOME</a></li>\
     <li><a href="about.html">ABOUT</a></li>\
-    <li><a href="#">PRODUCTS</a></li>\
+    <li><a href="product_page.html">PRODUCTS</a></li>\
     <li><a href="#">CONTACT</a></li>\
 </ul>\
 </nav>\
@@ -42,7 +42,7 @@ let footer =
         <td>This is a fictional site.</td>\
         <td>Gabriel Martinica (40120255)</td>\
         <td>Vatsa Shah (40125107)</td>\
-        <td>Thong Minh Tran (40072745</td>\
+        <td>Thong Minh Tran (40072745)</td>\
         <td></td>\
     </tr>\
 </table>';
