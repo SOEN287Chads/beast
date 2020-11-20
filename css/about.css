@@ -25,14 +25,13 @@ h1, h2, p {
 .container1 img {
   max-width: 100%;
   height: auto;
-
 }
 
 .in-barbell-txt {
   position: absolute;
   top: 80%;
   left: 50%;
-  transform: translate( -50%, -50% );
+  transform: translate(-50%, -50%);
   text-align: center;
   font-size: 600%;
   color: white;
@@ -40,21 +39,21 @@ h1, h2, p {
 }
 
 .offer-container {
-   position: relative;
-   background-image: url('../img/barbell3.jpg');
-   background-size: cover;
-   height: 100%;
-   padding-bottom: 10%;
+  position: relative;
+  background-image: url('../img/barbell3.jpg');
+  background-size: cover;
+  height: 100%;
+  padding-bottom: 10%;
 }
 
 .offer-container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0,0,0,.55);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .55);
 }
 
 .titletxt {
@@ -97,18 +96,17 @@ h1, h2, p {
   line-height: 90%;
   margin: .2em 0 .4em 0;
   letter-spacing: -2px;
-
 }
 
 .col p {
   color: #e4e5ec;
   font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
-	letter-spacing:0.1em;
-	margin: 40px 90px;
-	text-transform: lowercase;
-	line-height: 145%;
-	font-size: 18pt;
-	font-variant: small-caps;
+  letter-spacing: 0.1em;
+  margin: 40px 90px;
+  text-transform: lowercase;
+  line-height: 145%;
+  font-size: 18pt;
+  font-variant: small-caps;
 }
 
 .col img {
@@ -124,10 +122,11 @@ h1, h2, p {
   background-color: black;
   margin-bottom: 70px;
 }
+
 .questions {
   font: bold 70px "Century Schoolbook", Georgia, Times, serif;
- 	color: #0fb8ad;
- 	letter-spacing: -2px;
+  color: #0fb8ad;
+  letter-spacing: -2px;
   text-align: center;
   margin-top: 75px;
   margin-bottom: 50px;
@@ -145,6 +144,7 @@ h1, h2, p {
   align-items: center;
   transition: all 3s;
 }
+
 .contact-us:hover {
   transition: all 2s;
   opacity: 1;
@@ -163,7 +163,6 @@ h1, h2, p {
   margin-top: 6%;
   width: 90%;
   margin-bottom: 3%;
-
 }
 
 .lname {
@@ -178,8 +177,6 @@ h1, h2, p {
 
 .subject {
   width: 91.5%;
-
-
 }
 
 .sub {
@@ -188,12 +185,12 @@ h1, h2, p {
   padding-top: 3%;
   padding-bottom: 4%;
 }
+
 input[type=text] {
   font-size: 40px;
   height: 40px;
   width: 100%;
 }
-
 
 input[type=email] {
   font-size: 40px;
@@ -223,101 +220,97 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    border-radius: 10px;
-    font-size: 34px;
-    color: black;
-    background-color: #fd8c04;
-    animation: move 1.2s;
-    animation-iteration-count: infinite;
-    transition: all 3s;
+  border-radius: 10px;
+  font-size: 34px;
+  color: black;
+  background-color: #fd8c04;
+  animation: turn 0.5s;
+  animation-iteration-count: 1;
+  transition: all 3s;
 }
 
-
-@keyframes move {
+@keyframes turn {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(17deg);
   }
 
   5% {
-    transform: rotate(32deg);
+    transform: rotate(34deg);
   }
 
   10% {
-    transform: rotate(65deg);
+    transform: rotate(51deg);
   }
 
   15% {
-    transform: rotate(98deg);
+    transform: rotate(69deg);
   }
 
   20% {
-    transform: rotate(131deg);
+    transform: rotate(86deg);
   }
 
-  20% {
-    transform: rotate(163deg);
+  25% {
+    transform: rotate(103deg);
   }
 
   30% {
-    transform: rotate(196deg);
+    transform: rotate(120deg);
   }
 
   35% {
-    transform: rotate(229deg);
+    transform: rotate(137deg);
   }
 
   40% {
-    transform: rotate(262deg);
+    transform: rotate(154deg);
   }
 
   45% {
-    transform: rotate(295deg);
+    transform: rotate(171deg);
   }
 
   50% {
-    transform: rotate(327deg);
+    transform: rotate(189deg);
   }
 
   55% {
-    transform: rotate(360deg);
+    transform: rotate(206deg);
   }
 
   60% {
-    transform: rotate(393deg);
+    transform: rotate(223deg);
   }
 
   65% {
-    transform: rotate(425deg);
+    transform: rotate(240deg);
   }
 
   70% {
-    transform: rotate(458deg);
+    transform: rotate(257deg);
   }
 
   75% {
-    transform: rotate(491deg);
+    transform: rotate(274deg);
   }
 
   80% {
-    transform: rotate(523deg);
+    transform: rotate(291deg);
   }
 
   85% {
-    transform: rotate(556deg);
+    transform: rotate(309deg);
   }
 
   90% {
-    transform: rotate(589deg);
+    transform: rotate(326deg);
   }
 
   95% {
-    transform: rotate(621deg);
+    transform: rotate(342deg);
   }
 
-  97% {
-    transform: rotate(654deg);
-  }
   100% {
-    transform: rotate(687deg);
+    transform: rotate(360deg);
   }
 }
