@@ -1,14 +1,16 @@
 /*
 Scroll when navigating between signUp and signIn
 */
-html{
+html {
   scroll-behavior: smooth;
 }
 
+/*navbar*/
 nav {
   margin: 0;
   top: 0;
   padding: 10px 25px;
+  z-index: 1;
   justify-content: space-between;
   position: sticky;
   background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
@@ -35,26 +37,70 @@ a {
   color: #004c74;
 }
 
+/*Footer*/
+#footerHead {
+  text-align: left;
+  font-weight: bold;
+  font-size: larger;
+}
+footer table a {
+  color: white;
+  text-decoration: underline;
+}
+footer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  top: 0;
+  display: flex;
+  position: sticky;
+  padding: 0 0 10px;
+  transform: translate3d(0, 0, 0);
+  justify-content: space-between;
+  font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  color: white;
+  font-size: large;
+  font-weight: 100;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+}
+.footerTable {
+  width: 100%;
+  align-items: center;
+}
+
+
+
 .terms:hover {
   color: #fff;
   transition: all .5s ease 0s;
 }
-.signin{
-  color:#fff;
+
+.signin {
+  color: #fff;
 }
+
 .signin:hover {
   color: green;
-  font-size:x-large;
+  font-size: x-large;
   transition: all .5s ease 0s;
 }
-.signup{
-  color:#fff;
+
+.signup {
+  color: #fff;
 }
+
 .signup:hover {
   color: green;
-  font-size:x-large;
+  font-size: x-large;
   transition: all .5s ease 0s;
 }
+
 form {
   margin: 55px 0 300px 200px;
 }
@@ -66,7 +112,7 @@ h1 {
 }
 
 img {
-  width:100%;
+  width: 100%;
 }
 
 a,
@@ -124,9 +170,11 @@ button:hover {
   0% {
     transform: translate(0px, 0px) rotate(0deg);
   }
+
   5% {
     transform: translate(-1px, 0px) rotate(-1deg);
   }
+
   10% {
     transform: translate(1px, -3px) rotate(1deg);
   }
@@ -203,7 +251,6 @@ button:hover {
     transform: translate(0px, 0px) rotate(0deg);
   }
 }
-
 /* Add padding to container elements */
 .container {
   padding: 25px;
