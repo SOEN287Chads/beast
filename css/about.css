@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: black;
   margin: 0px;
 }
 
@@ -121,11 +121,12 @@ h1, h2, p {
 }
 
 .container-contact {
-  background-color: white;
+  background-color: black;
+  margin-bottom: 70px;
 }
 .questions {
   font: bold 70px "Century Schoolbook", Georgia, Times, serif;
- 	color: black;
+ 	color: #0fb8ad;
  	letter-spacing: -2px;
   text-align: center;
   margin-top: 75px;
@@ -133,14 +134,22 @@ h1, h2, p {
 }
 
 .contact-us {
-  border-radius: 15px;
+  opacity: 0.2;
+  /* border-radius: 15px; */
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: #5A2FF9;
+  background-color: #0fb8ad;
   width: 40%;
   margin: auto;
   align-items: center;
+  transition: all 3s;
+}
+.contact-us:hover {
+  transition: all 2s;
+  opacity: 1;
+  background-color: black;
+  width: 70%;
 }
 
 .contact-us i {
@@ -202,7 +211,7 @@ textarea {
 input[type=submit] {
   width: 100%;
   height: 60px;
-  background-color: yellow;
+  background-color: #0fb8ad;
   color: rgb(59, 59, 59);
   padding: 14px 20px;
   font-size: 30px;
@@ -210,5 +219,105 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: all 3s;
+}
 
+input[type=submit]:hover {
+    border-radius: 10px;
+    font-size: 34px;
+    color: black;
+    background-color: #fd8c04;
+    animation: move 1.2s;
+    animation-iteration-count: infinite;
+    transition: all 3s;
+}
+
+
+@keyframes move {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  5% {
+    transform: rotate(32deg);
+  }
+
+  10% {
+    transform: rotate(65deg);
+  }
+
+  15% {
+    transform: rotate(98deg);
+  }
+
+  20% {
+    transform: rotate(131deg);
+  }
+
+  20% {
+    transform: rotate(163deg);
+  }
+
+  30% {
+    transform: rotate(196deg);
+  }
+
+  35% {
+    transform: rotate(229deg);
+  }
+
+  40% {
+    transform: rotate(262deg);
+  }
+
+  45% {
+    transform: rotate(295deg);
+  }
+
+  50% {
+    transform: rotate(327deg);
+  }
+
+  55% {
+    transform: rotate(360deg);
+  }
+
+  60% {
+    transform: rotate(393deg);
+  }
+
+  65% {
+    transform: rotate(425deg);
+  }
+
+  70% {
+    transform: (458deg);
+  }
+
+  75% {
+    transform: (491deg);
+  }
+
+  80% {
+    transform: rotate(523deg);
+  }
+
+  85% {
+    transform: rotate(556deg);
+  }
+
+  90% {
+    transform: rotate(589deg);
+  }
+
+  95% {
+    transform: rotate(621deg);
+  }
+
+  97% {
+    transform: rotate(654deg);
+  }
+  100% {
+    transform: rotate(687deg);
+  }
 }
