@@ -1,9 +1,10 @@
 nav {
   margin: 0;
   top: 0;
+  width: 100%;
   padding: 10px 25px;
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
   background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
   font-size: x-large;
   font-family: "Monument Extended", Arial, Helvetica, sans-serif;
@@ -56,29 +57,105 @@ a {
   animation-iteration-count: infinite;
 }
 
+.loginSignUp {
+  position: fixed;
+	color: #fff;
+	font-size: 15px;
+	border-radius: 5px;
+	padding: 10px 25px;
+	letter-spacing: 2px;
+	background: #004c74;
+  right:70px;
+  top: 30px;
+}
+
+/*Footer*/
+#footerHead {
+  text-align: left;
+  font-weight: bold;
+  font-size: larger;
+}
+footer table a {
+  color: white;
+  text-decoration: underline;
+}
+footer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  top: 0;
+  display: flex;
+  padding: 0 0 10px;
+  transform: translate3d(0, 0, 0);
+  justify-content: space-between;
+  font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  color: white;
+  font-size: large;
+  font-weight: 100;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+}
+.footerTable {
+  width: 100%;
+  align-items: center;
+}
+
 @keyframes bounce {
   0% {
-    transform: translate(10px, 1px) rotate(0deg);
+    transform: translate(15px, 0px) rotate(10deg);
+  }
+
+  10% {
+    transform: translate(14px, 4px) rotate(5deg);
   }
 
   20% {
-    transform: translate(9px, 0px) rotate(1deg);
+    transform: translate(13px, 14px) rotate(4deg);
+  }
+
+  30% {
+    transform: translate(7px, -6px) rotate(3deg);
   }
 
   40% {
-    transform: translate(-5px, -1px) rotate(1deg);
+    transform: translate(3px, -5px) rotate(2deg);
+  }
+
+  45% {
+    transform: translate(-8px, 0px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-15px, 2px) rotate(0deg);
+  }
+
+  55% {
+    transform: translate(-8px, 0px) rotate(1deg);
   }
 
   60% {
-    transform: translate(-3px, 1px) rotate(0deg);
+    transform: translate(3px, -5px) rotate(2deg);
+  }
+
+  70% {
+    transform: translate(7px, -6px) rotate(3deg);
   }
 
   80% {
-    transform: translate(-6px, -1px) rotate(1deg);
+    transform: translate(13px, 14px) rotate(4deg);
+  }
+
+  90% {
+    transform: translate(14px, 4px) rotate(5deg);
   }
 
   100% {
-    transform: translate(1px, -7px) rotate(-1deg);
+    transform: translate(15px, 0px) rotate(10deg);
   }
 }
 
@@ -108,6 +185,7 @@ hr {
 }
 
 .top-container {
+  margin-top: 95px;
   position: relative;
   text-align: center;
   color: white;
