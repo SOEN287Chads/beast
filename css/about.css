@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  margin: 0px;
+  margin: 0;
 }
 
 h1, h2, p {
@@ -8,7 +8,7 @@ h1, h2, p {
 }
 
 .header {
-  top: 0px;
+  top: 0;
   z-index: 3;
   display: flex;
   position: sticky;
@@ -50,10 +50,10 @@ h1, h2, p {
 .offer-container::before {
     content: "";
     position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background-color: rgba(0,0,0,.55);
 }
 
@@ -62,8 +62,8 @@ h1, h2, p {
   color: white;
   font-family: Arial, Georgia, serif;
   font-style: italic;
-  font-size: 50px;
-  margin: 0px 400px;
+  font-size: 50;
+  margin: 0 400px;
   text-align: center;
 }
 
@@ -72,7 +72,7 @@ h1, h2, p {
   color: white;
   text-align: center;
   font-size: 40px;
-  margin: 0px 400px;
+  margin: 0 400px;
 }
 
 .containerimgrow {
@@ -291,11 +291,11 @@ input[type=submit]:hover {
   }
 
   70% {
-    transform: (458deg);
+    transform: rotate(458deg);
   }
 
   75% {
-    transform: (491deg);
+    transform: rotate(491deg);
   }
 
   80% {
