@@ -3,94 +3,116 @@
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>About Us</title>
+
     <link rel="stylesheet" href="../css/about.css">
+        <link rel="stylesheet" type="text/css" href="../css/navbarandfooter.css" >
     <script src="https://use.fontawesome.com/aba6b003fc.js"></script>
+
+    <style>
+       .container {
+           z-index: 2;
+           top: 150vh;
+           /*^edit value depending on your page*/
+           width: 100%;
+           height: initial;
+           position: absolute;
+           background: rgb(0, 0, 0);
+       }
+
+    </style>
   </head>
   <body>
-    <section class="about-us-mot">
-      <div class="container1">
-        <img src="../img/man.jpg" alt="barbell">
-        <div class="in-barbell-txt">
-          <h1>Unleash Your <i>Beast</i></h1>
-        </div>
-      </div>
-    </section>
-    <section class="offerings">
-      <div class="offer-container">
-        <div class="titletxt">
-          <h1>Fitness products and services for your home or facility</h1>
-        </div>
-        <div class="bodytxt">
-          <p>Beast Inc has been established a strong presence in Canada's fitness lifestyle.
-          With years of experience, we aim to deliver the best possible fitness experience.
-          We encourage amateurs and professionals to achieve their goals.
-          <br>
-          <br>
-          <i>What can you expect?</i>
-          </p>
-        </div>
-      </div>
+    <div id="navigationbar"></div>
 
-      <div class="containerimgrow">
-        <div class="row">
-          <div class="col">
-            <img src="../img/coach.jpg" alt="Coach" >
-          </div>
-          <div class="col">
-            <h2>Personal Training</h2>
-            <p>Certified high-quality trainers available for you 24/7.
-              Stop following advice from gym bros.</p>
+      <section class="about-us-mot">
+        <div class="container1">
+          <img src="../img/man.jpg" alt="barbell">
+          <div class="in-barbell-txt">
+            <h1>Unleash Your <i>Beast</i></h1>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <h2>Fitness Equipment</h2>
-            <p>Everything from (A)pparel to (Z) bars.</p>
+      </section>
+      <section class="offerings">
+        <div class="offer-container">
+          <div class="titletxt">
+            <h1>Fitness products and services for your home or facility</h1>
           </div>
-          <div class="col">
-            <img src="../img/dumbbell.jpg" alt="dumbbell">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <img src="../img/barbellgrip.jpg" alt="Barbell2" id="grip">
-          </div>
-          <div class="col">
-            <h2>Got Your Back</h2>
-            <p>We are here to motivate you, inspire you and make you become
-               the best person you can be.</p>
+          <div class="bodytxt">
+            <p>Beast Inc has been established a strong presence in Canada's fitness lifestyle.
+            With years of experience, we aim to deliver the best possible fitness experience.
+            We encourage amateurs and professionals to achieve their goals.
+            <br>
+            <br>
+            <i>What can you expect?</i>
+            </p>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="contact">
-      <div class="container-contact">
-        <div class="questions">
-          <h1>Get In Touch</h1>
-        </div>
-        <form action="/action_page.php">
-          <div class="contact-us">
-            <div class="fname">
-              <i class="fa fa-user" aria-hidden="true"></i>
-              <input type="text" id="fname" name="firstname" placeholder="    First Name">
+
+        <div class="containerimgrow">
+          <div class="row">
+            <div class="col">
+              <img src="../img/coach.jpg" alt="Coach" >
             </div>
-            <div class="lname">
-              <i class="fa fa-user" aria-hidden="true"></i>
-              <input type="text" id="lname" name="lastname" placeholder="    Last Name">
-            </div>
-            <div class="email">
-              <i class="fa fa-envelope"></i>
-              <input type="email" id="email" name="email" placeholder="    Email">
-            </div>
-            <div class="subject">
-              <textarea rows="5" id="subject" name="subject" placeholder="What is your query?"></textarea>
-            </div>
-            <div class="sub">
-              <input type="submit" value="Submit">
+            <div class="col">
+              <h2>Personal Training</h2>
+              <p>Certified high-quality trainers available for you 24/7.
+                Stop following advice from gym bros.</p>
             </div>
           </div>
-        </form>
-      </div>
-    </section>
+          <div class="row">
+            <div class="col">
+              <h2>Fitness Equipment</h2>
+              <p>Everything from (A)pparel to (Z) bars.</p>
+            </div>
+            <div class="col">
+              <img src="../img/dumbbell.jpg" alt="dumbbell">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <img src="../img/barbellgrip.jpg" alt="Barbell2" id="grip">
+            </div>
+            <div class="col">
+              <h2>Got Your Back</h2>
+              <p>We are here to motivate you, inspire you and make you become
+                 the best person you can be.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container-contact">
+          <div class="questions">
+            <h1>Get In Touch</h1>
+          </div>
+          <form action="/action_page.php">
+            <div class="contact-us">
+              <div class="fname">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" id="fname" name="firstname" placeholder="    First Name">
+              </div>
+              <div class="lname">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" id="lname" name="lastname" placeholder="    Last Name">
+              </div>
+              <div class="email">
+                <i class="fa fa-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="    Email">
+              </div>
+              <div class="subject">
+                <textarea rows="5" id="subject" name="subject" placeholder="What is your query?"></textarea>
+              </div>
+              <div class="sub">
+                <input type="submit" value="Submit">
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+  <div class="container"><br><br>
+    <footer id="footer"></footer>
+  </div>
+  <script src="../javascript/navbarandfooter.js"></script>
   </body>
 </html>
