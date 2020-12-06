@@ -13,7 +13,7 @@ nav {
 	position: sticky;
 }
 
-div {
+#navigationbar {
 	top: 0px;
 	z-index: 3;
 	display: flex;
