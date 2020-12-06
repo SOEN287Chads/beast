@@ -4,11 +4,57 @@
 body{
     min-width: 1008px;
 }
+
+
+
+.header {
+    top: 0px;
+    z-index: 3;
+    width: 96%;
+    display: flex;
+    position: sticky;
+    padding: 20px 30px;
+    transform: translate3d(0, 0, 0);
+    justify-content: space-between;
+    background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+}
+
+.header {
+    font-size: x-large;
+    font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.navbar li {
+    padding: 0 15px;
+    display: inline-block;
+}
+
+.navbar li a {
+    color: #fff;
+    transition: all .5s ease 0s;
+}
+
+.navbar li a:hover {
+    color: #004c74;
+}
+
+.loginSignUp {
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    letter-spacing: 2px;
+    background: #004c74;
+}
+
+
 .container_12{
     margin-left: auto;
     margin-right: auto;
     width: 1008px;
 }
+
 .grid_2,
 .grid_3,
 .grid_4,
@@ -291,7 +337,7 @@ table, caption, tbody, tfoot, thead, tr, th, td{
     background: transparent;
 }
 article, aside, audio, canvas, command, datalist,
-details, embed, figcaption, figure, footer,
+details, embed, figcaption, figure,
 header, hgroup, keygen, meter, nav, output,
 progress, section, source, video{
     display:block;
@@ -2935,21 +2981,8 @@ article.post h2 a{
     text-decoration: none;
     font: normal 20px/20px Bitter, Myriad Pro, Verdana, serif;
 }
-article.post .footer_article{
-    padding: 0px 0 0 0;
-    height: 25px;
-    color: #777;
-    font: italic 12px/25px Segoeui-Italic, Arial, Verdana, serif;
-}
-article.post .footer_article .number_c{
-    float: right;
-    width: 26px;
-    height: 25px;
-    text-align: center;
-    color: #777;
-    font: normal 13px/20px Segoeui, Arial, Verdana, serif;
-    background: url(../images/n_com.png) left top no-repeat;
-}
+
+
 article.view_post{
     border-bottom: 1px solid #e0e0e0;
 }
@@ -4680,3 +4713,52 @@ ul.f_contact li+li+li{
 *+html .primary ul ul.sub li a:hover{
     background: #f5f7f9;
 }
+
+/* Footer */
+
+/*#footerHead {*/
+/*    text-align: center;*/
+/*    font-weight: bold;*/
+/*    font-size: larger;*/
+/*}*/
+
+/*footer table a {*/
+/*    color: white;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*.footerTable {*/
+/*    width: 100%;*/
+/*    align-items: center;*/
+/*}*/
+
+/*#footerHead {*/
+/*    text-align: left;*/
+/*    font-weight: bold;*/
+/*    font-size: larger;*/
+/*}*/
+
+/*footer table a {*/
+/*    color: white;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*footer {*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    z-index: 2;*/
+/*    width: 100%;*/
+/*    padding: 2%;*/
+/*    color: white;*/
+/*    position: fixed;*/
+/*    font-size: large;*/
+/*    font-weight: 100;*/
+/*    padding-left: 5%;*/
+/*    padding-right: 5%;*/
+/*    background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);*/
+/*}*/
+
+/*.footerTable {*/
+/*    width: 100%;*/
+/*    align-items: center;*/
+/*}*/
