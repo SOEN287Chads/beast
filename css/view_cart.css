@@ -4732,33 +4732,33 @@ ul.f_contact li+li+li{
 /*    align-items: center;*/
 /*}*/
 
-#footerHead {
-    text-align: left;
-    font-weight: bold;
-    font-size: larger;
-}
+/*#footerHead {*/
+/*    text-align: left;*/
+/*    font-weight: bold;*/
+/*    font-size: larger;*/
+/*}*/
 
-footer table a {
-    color: white;
-    text-decoration: underline;
-}
+/*footer table a {*/
+/*    color: white;*/
+/*    text-decoration: underline;*/
+/*}*/
 
-footer {
-    left: 0;
-    bottom: 0;
-    z-index: 2;
-    width: 100%;
-    padding: 2%;
-    color: white;
-    position: fixed;
-    font-size: large;
-    font-weight: 100;
-    padding-left: 5%;
-    padding-right: 5%;
-    background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
-}
+/*footer {*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    z-index: 2;*/
+/*    width: 100%;*/
+/*    padding: 2%;*/
+/*    color: white;*/
+/*    position: fixed;*/
+/*    font-size: large;*/
+/*    font-weight: 100;*/
+/*    padding-left: 5%;*/
+/*    padding-right: 5%;*/
+/*    background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);*/
+/*}*/
 
-.footerTable {
-    width: 100%;
-    align-items: center;
-}
+/*.footerTable {*/
+/*    width: 100%;*/
+/*    align-items: center;*/
+/*}*/
