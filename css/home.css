@@ -60,7 +60,7 @@ header::before {
 	content: "";
 	z-index: -1;
 	position: absolute;
-	background: url(../img/gym.jpeg);
+	background: url("../img/gym.jpeg");
 	background-size: cover;
 }
 

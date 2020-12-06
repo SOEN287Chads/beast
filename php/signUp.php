@@ -1,4 +1,5 @@
 <!--Sign up page-->
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -6,15 +7,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <title>Sign Up Page</title>
-  <link rel="stylesheet" href="../css/signUp.css">
-
+  <style>
+    <?php include '../css/signUp.css'; ?>
+  </style>
+  <!-- <link rel="stylesheet" href="../css/signUp.css"> -->
 </head>
 
 <body>
   <nav>
     <ul class="navbar">
-      <li><a href="home.html">HOME</a></li>
-      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="home.php"> HOME</a></li>
+      <li><a href=" about.html">ABOUT</a></li>
       <li><a href="ProductPage.html">PRODUCTS</a></li>
       <li><a href="about.html#fname">CONTACT</a></li>
       <li><a href="trainer1.html">TRAINERS</a></li>
@@ -33,13 +36,9 @@
       <p>By creating an account I hereby agree to the
         <a class="terms" href="#">Terms and Conditions</a>
       </p>
-      <p>Already a memer? <a class="signin" href="#signin"> Sign In here!</a> </p>
+      <p>Already a member? <a class="signin" href="#signin"> Sign In here!</a> </p>
       </p>
-
-
       <button type="submit" name="signUpButton">Let's go!</button>
-
-
     </form>
   </div>
 

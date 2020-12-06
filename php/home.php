@@ -5,25 +5,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BeastFit | For the Beast in All of Us</title>
-    <link rel="stylesheet" href="../css/home.css">
+    <style>
+        <?php include '../css/home.css'; ?><?php echo
+                                                'header::before {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            content: "";
+            z-index: -1;
+            position: absolute;
+            background: url("gym.jpeg");
+            background-size: cover;
+        }' ?>
+    </style>
+    <!-- ../img/gym.jpeg -->
+    <!-- <link rel="stylesheet" href="../css/home.css"> -->
 </head>
 
 <body>
     <div>
-
         <nav>
             <ul class="navbar">
-              <li><a href="home.html">HOME</a></li>
-              <li><a href="about.html">ABOUT</a></li>
-              <li><a href="ProductPage.html">PRODUCTS</a></li>
-              <li><a href="about.html#fname">CONTACT</a></li>
-              <li><a href="trainer1.html">TRAINERS</a></li>
+                <li><a href="home.php">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="ProductPage.html">PRODUCTS</a></li>
+                <li><a href="about.html#fname">CONTACT</a></li>
+                <li><a href="trainer1.html">TRAINERS</a></li>
             </ul>
         </nav>
 
         <a href="signUp.html" class="loginSignUp">SIGN UP!</a>
     </div>
-
 
     <div class="container"><br><br>
         <h3 id="titles">HUGE FACILITY | AMAZING TRAINERS | GREAT ATMOSPHERE</h3>
@@ -92,7 +105,9 @@
             </table>
         </footer>
     </div>
-
+    <header>
+        <h1>FOR THE BEAST IN ALL OF US.</h1>
+    </header>
 </body>
 
 </html>
