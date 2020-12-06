@@ -54,6 +54,7 @@ if (!$mail->send()) {
 		<br>
 		<hr size="3" width="500">
 		<br>
-		<h4 style='font-family: "Monument Extended", Arial, Helvetica, sans-serif; color: white; '>An email will be sent to you shortly regarding the confirmation <br> Meanwhile, browse our great selection of products!</h4>
+		<h4 style='font-family: "Monument Extended", Arial, Helvetica, sans-serif; color: white; '>An email will be sent to you shortly regarding the confirmation <br> 
+			Meanwhile, browse our great selection of products!</h4>
 	</center>
 </body>
