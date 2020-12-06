@@ -1,0 +1,26 @@
+.container {
+            z-index: 2;
+            top: 130vh;
+            /*^edit value depending on your page*/
+            width: 100%;
+            height: initial;
+            position: absolute;
+        }
+body {
+        background-color: black;
+     }
+h1 {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 50px;
+	}
+h2 {
+	color: white;
+	font-size: 40px;
+}
+h3,h4,p 
+	{
+   		color: white;
+    }
+    
