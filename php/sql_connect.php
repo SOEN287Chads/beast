@@ -11,7 +11,8 @@
         $dbhost="localhost";
         $dbName="products";
         $user="root";
-        $pass="synystergates123";
+        // Modify depending on your choice of password
+        $pass="";
         $conn = new mysqli($dbhost,$user,$pass,$dbName);
         try{
             echo "Connected with products database" . "<br>";
