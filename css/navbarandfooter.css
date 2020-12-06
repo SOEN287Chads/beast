@@ -13,11 +13,11 @@ nav {
 	position: sticky;
 }
 
-div {
+#navigationbar {
 	top: 0px;
 	z-index: 3;
 	display: flex;
-	/*position: sticky;*/
+	position: sticky;
 	padding: 30px 70px;
 	transform: translate3d(0, 0, 0);
 	justify-content: space-between;
