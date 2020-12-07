@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/navbarandfooter.css" />
     <title>BeastFit | For the Beast in All of Us</title>
     <style>
         <?php include '../css/home.css'; ?><?php echo
@@ -24,7 +25,7 @@
 </head>
 
 <body>
-    <div>
+    <!-- <div>
         <nav>
             <ul class="navbar">
                 <li><a href="home.php">HOME</a></li>
@@ -36,7 +37,11 @@
         </nav>
 
         <a href="signUp.html" class="loginSignUp">SIGN UP!</a>
-    </div>
+    </div> -->
+
+     <!-- Navigation bar -->
+     <div id="navigationbar"></div>
+
 
     <div class="container"><br><br>
         <h3 id="titles">HUGE FACILITY | AMAZING TRAINERS | GREAT ATMOSPHERE</h3>
@@ -66,7 +71,7 @@
             core range of products, we will match it as a part of our brand promises.
         </p>
         <br><br><br><br><br><br><br><br>
-        <footer>
+        <!-- <footer>
             <table class="footerTable">
                 <tr>
                     <td id="footerHead">
@@ -103,11 +108,20 @@
                     <td></td>
                 </tr>
             </table>
-        </footer>
+        </footer> -->
+        <!-- Footer -->
+        <div class="footer"><br><br>
+            <footer id="footer"></footer>
+        </div>
+        <script src="../javascript/navbarandfooter.js"></script>
     </div>
     <header>
         <h1>FOR THE BEAST IN ALL OF US.</h1>
     </header>
+
+    
+    
+
 </body>
 
 </html>
