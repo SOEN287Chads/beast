@@ -2,8 +2,8 @@
 
 $serverName = "localhost";
 $dBUsername = "root";
-$dBPassword = "password";
-$dBName = "BeastWebsite";
+$dBPassword = "";
+$dBName = "beastmain";
 
 $conn = mysqli_connect($serverName, $dBUsername, $dBPassword, $dBName);
 
