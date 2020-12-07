@@ -7,7 +7,7 @@ let navbar =
     <li><a href="#">CONTACT</a></li>\
 </ul>\
 </nav>\
-<a href="signUp.html" class="loginSignUp">SIGN UP!</a>';
+<a href="./php/signUp.php" class="loginSignUp">SIGN UP!</a>';
 
 let footer =
 	'<table class="footerTable">\
