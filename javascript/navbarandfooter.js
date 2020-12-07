@@ -4,7 +4,7 @@ let navbar =
     <li><a href="../php/home.php">HOME</a></li>\
     <li><a href="../html/about.html">ABOUT</a></li>\
     <li><a href="../html/product_page.php">PRODUCTS</a></li>\
-    <li><a href="#">CONTACT</a></li>\
+    <li><a href="../html/trainer1.html">TRAINER</a></li>\
 </ul>\
 </nav>\
 <a href="./php/signUp.php" class="loginSignUp">SIGN UP!</a>';
