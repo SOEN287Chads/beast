@@ -5,6 +5,7 @@ let navbar =
     <li><a href="../php/about.php">ABOUT</a></li>\
     <li><a href="../html/product_page.php">PRODUCTS</a></li>\
     <li><a href="../php/about.php">CONTACT</a></li>\
+    <li><a href="../php/trainer1.php">TRAINER</a></li>\
 </ul>\
 </nav>\
 <a href="../html/view-cart.php" class="loginSignUp">VIEW CART</a>';

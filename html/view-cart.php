@@ -22,7 +22,7 @@ include('../php/connection.php');
         <ul class="navbar">
             <li><a href="../php/home.php">HOME</a></li>
             <li><a href="../php/about.php">ABOUT</a></li>
-            <li><a href="product_page.php">PRODUCTS</a></li>
+            <li><a href="../html/product_page.php">PRODUCTS</a></li>
             <li><a href="../php/about.php#fname">CONTACT</a></li>
             <li><a href="../php/trainer1.php">TRAINERS</a></li>
         </ul>
@@ -57,11 +57,10 @@ include('../php/connection.php');
             <div class="phone_top">
                 <span>Call Us +438 (100) 1234</span>
             </div>
-            <
         </div>
 
         <div class="grid_6">
-            <div class="welcome">l
+            <div class="welcome">
                 Welcome visitor you can <a href="../php/signUp.php">signUp</a> to create an account</a>.
             </div>
         </div>
@@ -198,9 +197,10 @@ ON incart.product_id=product.product_id;";
                 <td></td>
             </tr>
         </table>
-
     </footer>
 </div>
+
+
 <script type="text/javascript">
 
      var inputsS = document.getElementsByClassName('subtotal1');
