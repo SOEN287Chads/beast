@@ -123,7 +123,7 @@ ON incart.product_id=product.product_id;";
                 ?>
                             <tr>
                                 <td colspan="7" class="cart_but">
-                                    <button class="continue"><span>icon</span><a href="product_page.php"
+                                    <button class="continue"><span>icon</span><a href="../html/product_page.php"
                                                                                  style="color: #000">Continue
                                             Shopping</a></button>
                                     <button class="update" for="quantityUpdate"><span>icon</span>Update Shopping Cart
