@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,8 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BeastFit | For the Beast in All of Us</title>
     <style>
-        <?php include '../css/home.css'; ?><?php echo
-                                                'header::before {
+        <?php include '../css/home.css';
+        echo
+            'header::before {
             top: 0;
             left: 0;
             right: 0;
@@ -34,8 +39,15 @@
                 <li><a href="trainer1.html">TRAINERS</a></li>
             </ul>
         </nav>
+        <?php
+        if (isset($_SESSION["email"])) {
+            echo '<a href="includes/logout.inc.php" class="loginSignUp">LOG OUT</a>';
+        } else {
+            echo '<a href="signUp.php" class="loginSignUp">SIGN UP!</a>';
+        }
 
-        <a href="signUp.html" class="loginSignUp">SIGN UP!</a>
+        ?>
+
     </div>
 
     <div class="container"><br><br>

@@ -5,18 +5,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BeastFit | Page Not Found</title>
-    <link rel="stylesheet" href="../css/error.css">
+    <style>
+        <?php include '../css/home.css'; ?>
+    </style>
 </head>
 
 <body>
     <div>
         <nav>
             <ul class="navbar">
-              <li><a href="home.html">HOME</a></li>
-              <li><a href="about.html">ABOUT</a></li>
-              <li><a href="ProductPage.html">PRODUCTS</a></li>
-              <li><a href="about.html#fname">CONTACT</a></li>
-              <li><a href="trainer1.html">TRAINERS</a></li>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="ProductPage.html">PRODUCTS</a></li>
+                <li><a href="about.html#fname">CONTACT</a></li>
+                <li><a href="trainer1.html">TRAINERS</a></li>
             </ul>
         </nav>
 
