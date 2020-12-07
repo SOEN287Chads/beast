@@ -1,4 +1,4 @@
-# beast
+# Beast.Inc
 
 This is the website for Beast.Inc,an established Canadian fitness company that offers personal training services as well as gym equipment to their clients. 
 
