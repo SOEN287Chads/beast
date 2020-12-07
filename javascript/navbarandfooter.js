@@ -1,9 +1,9 @@
 let navbar =
 	'<nav>\
 <ul class="navbar">\
-    <li><a href="home.html">HOME</a></li>\
-    <li><a href="about.html">ABOUT</a></li>\
-    <li><a href="product_page.html">PRODUCTS</a></li>\
+    <li><a href="../php/home.php">HOME</a></li>\
+    <li><a href="../html/about.html">ABOUT</a></li>\
+    <li><a href="../html/product_page.php">PRODUCTS</a></li>\
     <li><a href="#">CONTACT</a></li>\
 </ul>\
 </nav>\
