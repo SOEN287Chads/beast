@@ -1,13 +1,13 @@
 let navbar =
 	'<nav>\
 <ul class="navbar">\
-    <li><a href="home.html">HOME</a></li>\
-    <li><a href="about.html">ABOUT</a></li>\
-    <li><a href="product_page.html">PRODUCTS</a></li>\
-    <li><a href="#">CONTACT</a></li>\
+    <li><a href="../php/home.php">HOME</a></li>\
+    <li><a href="../html/about.html">ABOUT</a></li>\
+    <li><a href="../html/product_page.php">PRODUCTS</a></li>\
+    <li><a href="../html/trainer1.html">TRAINER</a></li>\
 </ul>\
 </nav>\
-<a href="signUp.html" class="loginSignUp">SIGN UP!</a>';
+<a href="./php/signUp.php" class="loginSignUp">SIGN UP!</a>';
 
 let footer =
 	'<table class="footerTable">\
