@@ -3,7 +3,6 @@ include('../navandfooter.html');
 require('config.php');
 ?>
 
-
 <body style="background-color:black;">
     <form action="submit.php" method="post">
         <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
