@@ -2,256 +2,254 @@
 Scroll when navigating between signUp and signIn
 */
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 /*navbar*/
 nav {
-  margin: 0;
-  top: 0;
-  padding: 10px 25px;
-  z-index: 1;
-  justify-content: space-between;
-  position: sticky;
-  background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
-  font-size: x-large;
-  font-family: "Monument Extended", Arial, Helvetica, sans-serif;
-  color: white;
+	margin: 0;
+	top: 0;
+	padding: 10px 25px;
+	z-index: 1;
+	justify-content: space-between;
+	position: sticky;
+	background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+	font-size: x-large;
+	font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+	color: white;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .navbar li {
-  padding: 0 15px;
-  display: inline-block;
+	padding: 0 15px;
+	display: inline-block;
 }
 
 .navbar li a {
-  color: #fff;
-  transition: all .5s ease 0s;
+	color: #fff;
+	transition: all .5s ease 0s;
 }
 
 .navbar li a:hover {
-  color: #004c74;
+	color: #004c74;
 }
 
 /*Footer*/
 #footerHead {
-  text-align: left;
-  font-weight: bold;
-  font-size: larger;
+	text-align: left;
+	font-weight: bold;
+	font-size: larger;
 }
 footer table a {
-  color: white;
-  text-decoration: underline;
+	color: white;
+	text-decoration: underline;
 }
 footer {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  top: 0;
-  display: flex;
-  position: sticky;
-  padding: 0 0 10px;
-  transform: translate3d(0, 0, 0);
-  justify-content: space-between;
-  font-family: "Monument Extended", Arial, Helvetica, sans-serif;
-  left: 0;
-  bottom: 0;
-  z-index: 2;
-  width: 100%;
-  color: white;
-  font-size: large;
-  font-weight: 100;
-  padding-left: 5%;
-  padding-right: 5%;
-  background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	top: 0;
+	display: flex;
+	position: sticky;
+	padding: 0 0 10px;
+	transform: translate3d(0, 0, 0);
+	justify-content: space-between;
+	font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	width: 100%;
+	color: white;
+	font-size: large;
+	font-weight: 100;
+	padding-left: 5%;
+	padding-right: 5%;
+	background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
 }
 .footerTable {
-  width: 100%;
-  align-items: center;
+	width: 100%;
+	align-items: center;
 }
 
-
-
 .terms:hover {
-  color: #fff;
-  transition: all .5s ease 0s;
+	color: #fff;
+	transition: all .5s ease 0s;
 }
 
 .signin {
-  color: #fff;
+	color: #fff;
 }
 
 .signin:hover {
-  color: green;
-  font-size: x-large;
-  transition: all .5s ease 0s;
+	color: green;
+	font-size: x-large;
+	transition: all .5s ease 0s;
 }
 
 .signup {
-  color: #fff;
+	color: #fff;
 }
 
 .signup:hover {
-  color: green;
-  font-size: x-large;
-  transition: all .5s ease 0s;
+	color: green;
+	font-size: x-large;
+	transition: all .5s ease 0s;
 }
 
 form {
-  margin: 55px 0 300px 200px;
+	margin: 55px 0 300px 200px;
 }
 
 h1 {
-  padding: 15px;
-  margin-left: 300px;
-  color: #f1f1f1;
+	padding: 15px;
+	margin-left: 300px;
+	color: #f1f1f1;
 }
 
 img {
-  width: 100%;
+	width: 100%;
 }
 
 a,
 p {
-  color: grey;
-  margin: 20px 0;
+	color: grey;
+	margin: 20px 0;
 }
 
 body {
-  margin: 0;
-  font-family: Arial;
-  background-color: #0b0b0d;
-  font-family: 'Kaushan Script', cursive;
+	margin: 0;
+	font-family: Arial;
+	background-color: #0b0b0d;
+	font-family: 'Kaushan Script', cursive;
 }
 
 input {
-  width: 50%;
-  padding: 10px;
-  margin: 20px 0;
-  background: #0b0b0d;
-  border-bottom-color: #f1f1f1;
-  border-width: 0 0 3px 0;
-  color: grey;
-  font-size: 16px;
+	width: 50%;
+	padding: 10px;
+	margin: 20px 0;
+	background: #0b0b0d;
+	border-bottom-color: #f1f1f1;
+	border-width: 0 0 3px 0;
+	color: grey;
+	font-size: 16px;
 }
 
 /* Set a style for all buttons */
 button {
-  background-color: green;
-  color: #f1f1f1;
-  padding: 20px;
-  margin: 10px 0;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  width: 50%;
-  opacity: 0.5;
-  font-family: 'Kaushan Script', cursive;
-  font-size: 30px;
+	background-color: green;
+	color: #f1f1f1;
+	padding: 20px;
+	margin: 10px 0;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	width: 50%;
+	opacity: 0.5;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 30px;
 }
 
 input:hover {
-  border-radius: 100px;
-  background-color: #474a56;
-  transition: all 5s ease 0s;
+	border-radius: 100px;
+	background-color: #474a56;
+	transition: all 5s ease 0s;
 }
 
 button:hover {
-  opacity: 5;
-  animation: move 1.6s;
-  animation-iteration-count: infinite;
+	opacity: 5;
+	animation: move 1.6s;
+	animation-iteration-count: infinite;
 }
 
 @keyframes move {
-  0% {
-    transform: translate(0px, 0px) rotate(0deg);
-  }
+	0% {
+		transform: translate(0px, 0px) rotate(0deg);
+	}
 
-  5% {
-    transform: translate(-1px, 0px) rotate(-1deg);
-  }
+	5% {
+		transform: translate(-1px, 0px) rotate(-1deg);
+	}
 
-  10% {
-    transform: translate(1px, -3px) rotate(1deg);
-  }
+	10% {
+		transform: translate(1px, -3px) rotate(1deg);
+	}
 
-  15% {
-    transform: translate(-2px, -2px) rotate(-2deg);
-  }
+	15% {
+		transform: translate(-2px, -2px) rotate(-2deg);
+	}
 
-  20% {
-    transform: translate(2px, 0px) rotate(2deg);
-  }
+	20% {
+		transform: translate(2px, 0px) rotate(2deg);
+	}
 
-  20% {
-    transform: translate(-4px, 1px) rotate(-4deg);
-  }
+	20% {
+		transform: translate(-4px, 1px) rotate(-4deg);
+	}
 
-  30% {
-    transform: translate(3px, 2px) rotate(3deg);
-  }
+	30% {
+		transform: translate(3px, 2px) rotate(3deg);
+	}
 
-  35% {
-    transform: translate(-6px, -4px) rotate(-6deg);
-  }
+	35% {
+		transform: translate(-6px, -4px) rotate(-6deg);
+	}
 
-  40% {
-    transform: translate(4px, -16px) rotate(4deg);
-  }
+	40% {
+		transform: translate(4px, -16px) rotate(4deg);
+	}
 
-  45% {
-    transform: translate(-8px, -1px) rotate(-8deg);
-  }
+	45% {
+		transform: translate(-8px, -1px) rotate(-8deg);
+	}
 
-  50% {
-    transform: translate(5px, 19px) rotate(5deg);
-  }
+	50% {
+		transform: translate(5px, 19px) rotate(5deg);
+	}
 
-  55% {
-    transform: translate(-10px, 3px) rotate(-10deg);
-  }
+	55% {
+		transform: translate(-10px, 3px) rotate(-10deg);
+	}
 
-  60% {
-    transform: translate(4px, 1px) rotate(4deg);
-  }
+	60% {
+		transform: translate(4px, 1px) rotate(4deg);
+	}
 
-  65% {
-    transform: translate(-8px, -2px) rotate(-8deg);
-  }
+	65% {
+		transform: translate(-8px, -2px) rotate(-8deg);
+	}
 
-  70% {
-    transform: translate(3px, -4px) rotate(3deg);
-  }
+	70% {
+		transform: translate(3px, -4px) rotate(3deg);
+	}
 
-  75% {
-    transform: translate(-6px, -3px) rotate(-6deg);
-  }
+	75% {
+		transform: translate(-6px, -3px) rotate(-6deg);
+	}
 
-  80% {
-    transform: translate(2px, -1px) rotate(2deg);
-  }
+	80% {
+		transform: translate(2px, -1px) rotate(2deg);
+	}
 
-  85% {
-    transform: translate(-4px, -1px) rotate(-4deg);
-  }
+	85% {
+		transform: translate(-4px, -1px) rotate(-4deg);
+	}
 
-  90% {
-    transform: translate(1px, -1px) rotate(1deg);
-  }
+	90% {
+		transform: translate(1px, -1px) rotate(1deg);
+	}
 
-  95% {
-    transform: translate(-2px, -2px) rotate(-2deg);
-  }
+	95% {
+		transform: translate(-2px, -2px) rotate(-2deg);
+	}
 
-  100% {
-    transform: translate(0px, 0px) rotate(0deg);
-  }
+	100% {
+		transform: translate(0px, 0px) rotate(0deg);
+	}
 }
 /* Add padding to container elements */
 .container {
-  padding: 25px;
+	padding: 25px;
 }
