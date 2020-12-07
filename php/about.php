@@ -147,9 +147,7 @@ session_start();
     </div>
   </section>
 
-  <div class="container"><br><br>
-    <footer id="footer"></footer>
-  </div>
+  
   <script src="../javascript/PHPnavbarandfooter.js"></script>
 </body>
 
