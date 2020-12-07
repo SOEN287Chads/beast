@@ -36,7 +36,7 @@ include('../php/connection.php');
             <div class="container">
                 <div class="width-100">
                     <div class="content">
-                        <p class="small m-0">You are in: Home > Product Page </p>
+                        <p class="small m-0">You are in: Home > Product Page > Cart </p>
                     </div>
                 </div>
 
