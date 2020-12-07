@@ -71,7 +71,7 @@
             core range of products, we will match it as a part of our brand promises.
         </p>
         <br><br><br><br><br><br><br><br>
-        <footer>
+        <!-- <footer>
             <table class="footerTable">
                 <tr>
                     <td id="footerHead">
@@ -108,18 +108,19 @@
                     <td></td>
                 </tr>
             </table>
-        </footer>
+        </footer> -->
+        <!-- Footer -->
+        <div class="footer"><br><br>
+            <footer id="footer"></footer>
+        </div>
+        <script src="../javascript/navbarandfooter.js"></script>
     </div>
     <header>
         <h1>FOR THE BEAST IN ALL OF US.</h1>
     </header>
 
     
-    <!-- Footer -->
-    <div class="footer"><br><br>
-        <footer id="footer"></footer>
-    </div>
-    <script src="../javascript/navbarandfooter.js"></script>
+    
 
 </body>
 
