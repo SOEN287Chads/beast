@@ -1,10 +1,10 @@
 let navbar =
 	'<nav>\
 <ul class="navbar">\
-    <li><a href="../home.php">HOME</a></li>\
-    <li><a href="../about.php">ABOUT</a></li>\
-    <li><a href="../product_page.php">PRODUCTS</a></li>\
-    <li><a href="../about.php">CONTACT</a></li>\
+    <li><a href="../php/home.php">HOME</a></li>\
+    <li><a href="../php/about.php">ABOUT</a></li>\
+    <li><a href="../html/product_page.php">PRODUCTS</a></li>\
+    <li><a href="../php/about.php">CONTACT</a></li>\
 </ul>\
 </nav>';
 

@@ -55,7 +55,7 @@ if (isset($_POST["signInButton"])) {
     <ul class="navbar">
       <li><a href="home.php"> HOME</a></li>
       <li><a href=" about.php">ABOUT</a></li>
-      <li><a href="ProductPage.php">PRODUCTS</a></li>
+      <li><a href="../html/product_page.php">PRODUCTS</a></li>
       <li><a href="about.php#fname">CONTACT</a></li>
       <li><a href="trainer1.php">TRAINERS</a></li>
     </ul>

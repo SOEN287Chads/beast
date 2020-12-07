@@ -385,7 +385,7 @@ include('../php/connection.php');
     <div class="footer"><br><br>
         <footer id="footer"></footer>
     </div>
-    <script src="../javascript/navbarandfooter.js"></script>
+    <script src="../javascript/CUSTOMnavbarandfooter.js"></script>
 
 </body>
 </html>
