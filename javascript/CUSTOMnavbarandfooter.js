@@ -6,7 +6,8 @@ let navbar =
     <li><a href="../html/product_page.php">PRODUCTS</a></li>\
     <li><a href="../php/about.php">CONTACT</a></li>\
 </ul>\
-</nav>';
+</nav>\
+<a href="../html/view-cart.php" class="loginSignUp">VIEW CART</a>';
 
 let footer =
 	'<table class="footerTable">\

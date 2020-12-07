@@ -20,14 +20,12 @@ include('../php/connection.php');
 <div id="navigationbar">
     <nav>
         <ul class="navbar">
-            <li><a href="home.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="product_page.html">PRODUCTS</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="../php/home.php">HOME</a></li>
+            <li><a href="../php/about.php">ABOUT</a></li>
+            <li><a href="../html/product_page.php">PRODUCTS</a></li>
+            <li><a href="../php/about.php">CONTACT</a></li>
         </ul>
     </nav>
-
-
 </div>
 
 <div class="container_12">
@@ -122,7 +120,7 @@ ON incart.product_id=product.product_id;";
                 ?>
                 <tr>
                     <td colspan="7" class="cart_but">
-                        <button class="continue"><span>icon</span><a href="product_page.php" style="color: #000">Continue Shopping</a></button>
+                        <button class="continue"><span>icon</span><a href="../html/product_page.php" style="color: #000">Continue Shopping</a></button>
                         <button class="update" for="quantityUpdate"><span>icon</span>Update Shopping Cart</button>
                       
 
@@ -196,7 +194,7 @@ ON incart.product_id=product.product_id;";
         </table>
 
     </footer>
-</div>
+    </div>
 <script type="text/javascript">
 
      var inputsS = document.getElementsByClassName('subtotal1');

@@ -57,10 +57,7 @@ include('../php/connection.php');
                                         <?php
                                     }
                                 }
-                                ?>
-                                
-                                
-
+                                ?>                           
                             </ul>
 
                         </div>
@@ -184,7 +181,7 @@ include('../php/connection.php');
                 </div>
                 <?php
                 if(isset($_SESSION['already_incart'])){
-                    echo "<div class='alreadINcart'>Product is already In Cart</div>";
+                    echo "<div class='alreadINcart'><h2>Product is already In Cart<h2></div>";
                 }
                 ?>
                 <div class="width-70">
