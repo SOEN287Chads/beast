@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BeastFit | Page Not Found</title>
     <style>
-        <?php include '../css/home.css'; ?>
+        <?php include '../css/error.css'; ?>
     </style>
 </head>
 
@@ -14,15 +14,20 @@
     <div>
         <nav>
             <ul class="navbar">
-                <li><a href="home.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="ProductPage.html">PRODUCTS</a></li>
-                <li><a href="about.html#fname">CONTACT</a></li>
-                <li><a href="trainer1.html">TRAINERS</a></li>
+                <li><a href="home.php">HOME</a></li>
+                <li><a href="about.php">ABOUT</a></li>
+                <li><a href="ProductPage.php">PRODUCTS</a></li>
+                <li><a href="about.php">CONTACT</a></li>
+                <li><a href="trainer1.php">TRAINERS</a></li>
             </ul>
         </nav>
-
-        <a href="signUp.html" class="loginSignUp">SIGN UP!</a>
+        <?php
+        if (isset($_SESSION["email"])) {
+            echo '<a href="includes/logout.inc.php" class="loginSignUp">LOG OUT</a>';
+        } else {
+            echo '<a href="signUp.php" class="loginSignUp">SIGN UP!</a>';
+        }
+        ?>
     </div>
 
     <footer>

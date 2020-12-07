@@ -24,8 +24,6 @@ session_start();
             background-size: cover;
         }' ?>
     </style>
-    <!-- ../img/gym.jpeg -->
-    <!-- <link rel="stylesheet" href="../css/home.css"> -->
 </head>
 
 <body>
@@ -33,10 +31,10 @@ session_start();
         <nav>
             <ul class="navbar">
                 <li><a href="home.php">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="ProductPage.html">PRODUCTS</a></li>
-                <li><a href="about.html#fname">CONTACT</a></li>
-                <li><a href="trainer1.html">TRAINERS</a></li>
+                <li><a href="about.php">ABOUT</a></li>
+                <li><a href="ProductPage.php">PRODUCTS</a></li>
+                <li><a href="about.php#fname">CONTACT</a></li>
+                <li><a href="trainer1.php">TRAINERS</a></li>
             </ul>
         </nav>
         <?php
@@ -45,9 +43,7 @@ session_start();
         } else {
             echo '<a href="signUp.php" class="loginSignUp">SIGN UP!</a>';
         }
-
         ?>
-
     </div>
 
     <div class="container"><br><br>

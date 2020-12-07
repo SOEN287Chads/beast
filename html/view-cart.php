@@ -8,49 +8,12 @@ include('../php/connection.php');
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width">
-    <title>BeastFit | For the Beast in All of Us | Shopping Cart</title>
+    <title>Shopping cart</title>
     <link href="../css/view_cart.css" media="screen" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../css/product_page.css">
-    <link rel="stylesheet" type="text/css" href="../css/navbarandfooter.css" />
     <script src="../javascript/view-cart.js"></script>
 </head>
 <body class="shopping-cart">
-
-<!-- Navigation bar -->
-<div id="navigationbar">
-    <nav>
-        <ul class="navbar">
-            <li><a href="home.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="product_page.html">PRODUCTS</a></li>
-            <li><a href="#">CONTACT</a></li>
-        </ul>
-    </nav>
-
-
-</div>
-
 <div class="container_12">
-    <main>
-        <section class="mt-30">
-            <div class="container">
-                <div class="width-100">
-                    <div class="content">
-                        <p class="small m-0">You are in: Home > Product Page > Cart </p>
-                    </div>
-                </div>
-
-                <div class="width-100">
-                    <div class="content">
-                        <h1 class="font-30 mt-30 mb-0">View Cart Page <span class="small"></span> </h1>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-
-    </main>
     <div id="top">
         <div class="grid_3">
             <div class="phone_top">
@@ -60,7 +23,24 @@ include('../php/connection.php');
 
         <div class="grid_6">
             <div class="welcome">l
-                Welcome visitor you can <a href="signUp.html#signin">login</a> or <a href="signUp.html">create an account</a>.
+                Welcome visitor you can <a href="#">login</a> or <a href="#">create an account</a>.
+            </div>
+        </div>
+
+        <div class="grid_3">
+            <div class="valuta">
+                <ul>
+                    <li class="curent"><a href="#">$</a></li>
+                    <li><a href="#">&#8364;</a></li>
+                    <li><a href="#">&#163;</a></li>
+                </ul>
+            </div>
+
+            <div class="lang">
+                <ul>
+                    <li class="curent"><a href="#">EN</a></li>
+                    <li><a href="#">FR</a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -133,55 +113,86 @@ ON incart.product_id=product.product_id;";
         </div><!-- .grid_12 -->
 
         <div class="clear"></div>
+
+        <div id="content_bottom" class="shopping_box">
+            <div class="grid_4">
+                <div class="bottom_block estimate">
+                    <h3>Estimate Shipping and Tax</h3>
+                    <p>Enter your destination to get a shipping estimate.</p>
+                    <form>
+                        <p>
+                            <strong>Country:</strong><sup class="surely">*</sup><br/>
+                            <select>
+                                <option>United States</option>
+                                <option>United States</option>
+                            </select>
+                        </p>
+                        <p>
+                            <strong>State/Province:</strong><br/>
+                            <select>
+                                <option>Please select region, state or province</option>
+                                <option>Please select region, state or province</option>
+                            </select>
+                        </p>
+                        <p>
+                            <strong>Zip/Postal Code</strong><br/>
+                            <input type="text" name="" value="" />
+                        </p>
+                        <input type="submit" id="get_estimate" value="Get a Quote" />
+                    </form>
+
+                </div><!-- .estimate -->
+            </div><!-- .grid_4 -->
+
+            <div class="grid_4">
+                <div class="bottom_block discount">
+                    <h3>Discount Codes</h3>
+                    <p>Enter your coupon code if you have one.</p>
+                    <form>
+                        <p>
+                            <input type="text" name="" value="" placeholder="United States"/>
+                        </p>
+                        <input type="submit" id="apply_coupon" value="Apply Coupon" />
+                    </form>
+                </div>
+            </div>
+
+            <div class="grid_4">
+                <div class="bottom_block total">
+                    <table class="subtotal">
+                        <tr>
+                            <td>Subtotal</td><td class="price" id="subtotal">$1, 500.00</td>
+                        </tr>
+                        <tr class="grand_total">
+                            <td>Grand Total</td><td class="price" id="grandtotal">$1, 500.00</td>
+                        </tr>
+                    </table>
+                    <button class="checkout">PROCEED TO CHECKOUT</button>
+                    <a href="#">Checkout with Multiple Addresses</a>
+                </div><!-- .total -->
+            </div><!-- .grid_4 -->
+
+            <div class="clear"></div>
+        </div><!-- #content_bottom -->
         <div class="clear"></div>
+
+        <div class="carousel" id="following">
+            <div class="c_header">
+                <div class="grid_10">
+                    <h5>Based on your selection, you may be interested in the following item:</h5>
+                </div><!-- .grid_10 -->
+
+                <div class="grid_2">
+                    <a id="next_c1" class="next arows" href="#"><span>Next</span></a>
+                    <a id="prev_c1" class="prev arows" href="#"><span>Prev</span></a>
+                </div><!-- .grid_2 -->
+            </div><!-- .c_header -->
+        </div><!-- .carousel -->
 
     </div><!-- .container_12 -->
 </section><!-- #main -->
 
 <div class="clear"></div>
-<div class="div-clear"></div>
-
-<!-- Footer -->
-<div class="footer"><br><br>
-    <footer id="footer"><table class="footerTable">
-            <tr>
-                <td id="footerHead">
-                    <h3>Visit Us:</h3>
-                </td>
-                <td id="footerHead">
-                    <h3>Find Us:</h3>
-                </td>
-                <td id="footerHead">
-                    <h3>Developed By:</h3>
-                </td>
-                <td id="footerHead">
-                    <h3>Group Members:</h3>
-                </td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>EV S2, 1515 Rue Sainte-Catherine</td>
-                <td><a href="mailto:genericemail.com">Email</a></td>
-                <td>SOEN 287 Chads</td>
-                <td>Michael Djabauri (40158792)</td>
-                <td>Vaansh Lakhwara (40114764)</td>
-                <td>Tran Nhu Tran (40086678)</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>O#206, Montréal, QC H3G 2W1, Canada</td>
-                <td><a href="https://github.com/SOEN287Chads/beast">GitHub</a></td>
-                <td>This is a fictional site.</td>
-                <td>Gabriel Martinica (40120255)</td>
-                <td>Vatsa Shah (40125107)</td>
-                <td>Thong Minh Tran (40072745)</td>
-                <td></td>
-            </tr>
-        </table>
-
-    </footer>
-</div>
 <script type="text/javascript">
 
      var inputsS = document.getElementsByClassName('subtotal1');
@@ -192,6 +203,5 @@ ON incart.product_id=product.product_id;";
         document.getElementById("subtotal").innerHTML = "$"+total;
     document.getElementById("grandtotal").innerHTML = "$"+total;
 </script>
-
 </body>
 </html>

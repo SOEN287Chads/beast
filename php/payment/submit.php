@@ -1,5 +1,6 @@
 <?php
-include('../navandfooter.html');
+session_start();
+include('../CUSTOMnavandfooter.html');
 require('config.php');
 if (isset($_POST['stripeToken'])) {
 	\Stripe\Stripe::setVerifySslCerts(false);
@@ -29,7 +30,7 @@ $mail->SMTPAuth = true;
 $mail->Username = 'thebeastfitteam@gmail.com';
 $mail->Password = 'SOEN287CHADS';
 $mail->setFrom('thebeastfitteam@gmail.com', 'BeastFit');
-$mail->addAddress("sphoetify.buzzness@gmail.com", "Customer");
+$mail->addAddress($_SESSION["email"], "Customer");
 $mail->isHTML(true);
 
 $mail->Subject = 'BeastFit: Order Placed';
@@ -54,7 +55,7 @@ if (!$mail->send()) {
 		<br>
 		<hr size="3" width="500">
 		<br>
-		<h4 style='font-family: "Monument Extended", Arial, Helvetica, sans-serif; color: white; '>An email will be sent to you shortly regarding the confirmation <br> 
+		<h4 style='font-family: "Monument Extended", Arial, Helvetica, sans-serif; color: white; '>An email will be sent to you shortly regarding the confirmation <br>
 			Meanwhile, browse our great selection of products!</h4>
 	</center>
 </body>

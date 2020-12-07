@@ -1,4 +1,5 @@
 <?php
+
 require_once 'includes/dbh.inc.php';
 require_once 'includes/functions.inc.php';
 
@@ -53,10 +54,10 @@ if (isset($_POST["signInButton"])) {
   <nav>
     <ul class="navbar">
       <li><a href="home.php"> HOME</a></li>
-      <li><a href=" about.html">ABOUT</a></li>
-      <li><a href="ProductPage.html">PRODUCTS</a></li>
-      <li><a href="about.html#fname">CONTACT</a></li>
-      <li><a href="trainer1.html">TRAINERS</a></li>
+      <li><a href=" about.php">ABOUT</a></li>
+      <li><a href="ProductPage.php">PRODUCTS</a></li>
+      <li><a href="about.php#fname">CONTACT</a></li>
+      <li><a href="trainer1.php">TRAINERS</a></li>
     </ul>
   </nav>
   <div class="container" id="signup"> <br> <br>
@@ -87,6 +88,7 @@ if (isset($_POST["signInButton"])) {
   </div>
 
   <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80" alt="pullUp">
+
   <div class="" id="signin">
     <h1></h1>
     <h1></h1>
@@ -104,8 +106,7 @@ if (isset($_POST["signInButton"])) {
         }
         ?>
         <p>
-          Dont have an account? <a class="signup" onclick="window.scrollTo(document.body.scrollHeight, 0);
-"> Sign Up here!</a>
+          Dont have an account? <a class="signup" onclick="window.scrollTo(document.body.scrollHeight, 0);"> Sign Up here!</a>
         </p>
         <button type="submit" name="signInButton">Let me in!</button>
     </form>
