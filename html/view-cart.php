@@ -11,7 +11,7 @@ include('../php/connection.php');
     <title>BeastFit | For the Beast in All of Us | Shopping Cart</title>
     <link href="../css/view_cart.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../css/product_page.css">
-    <link rel="stylesheet" type="text/css" href="../css/navbarandfooter.css" />
+    <link rel="stylesheet" type="text/css" href="../css/navbarandfooter.css"/>
     <script src="../javascript/view-cart.js"></script>
 </head>
 <body class="shopping-cart">
@@ -22,10 +22,13 @@ include('../php/connection.php');
         <ul class="navbar">
             <li><a href="../php/home.php">HOME</a></li>
             <li><a href="../php/about.php">ABOUT</a></li>
-            <li><a href="../html/product_page.php">PRODUCTS</a></li>
-            <li><a href="../php/about.php">CONTACT</a></li>
+            <li><a href="product_page.php">PRODUCTS</a></li>
+            <li><a href="../php/about.php#fname">CONTACT</a></li>
+            <li><a href="../php/trainer1.php">TRAINERS</a></li>
         </ul>
     </nav>
+
+
 </div>
 
 <div class="container_12">
@@ -53,12 +56,13 @@ include('../php/connection.php');
         <div class="grid_3">
             <div class="phone_top">
                 <span>Call Us +438 (100) 1234</span>
-            </div><
+            </div>
+            <
         </div>
 
         <div class="grid_6">
             <div class="welcome">l
-                Welcome visitor you can <a href="signUp.html#signin">login</a> or <a href="signUp.html">create an account</a>.
+                Welcome visitor you can <a href="../php/signUp.php">signUp</a> to create an account</a>.
             </div>
         </div>
     </div>
@@ -118,15 +122,18 @@ ON incart.product_id=product.product_id;";
                     }
                 }
                 ?>
-                <tr>
-                    <td colspan="7" class="cart_but">
-                        <button class="continue"><span>icon</span><a href="../html/product_page.php" style="color: #000">Continue Shopping</a></button>
-                        <button class="update" for="quantityUpdate"><span>icon</span>Update Shopping Cart</button>
-                      
+                            <tr>
+                                <td colspan="7" class="cart_but">
+                                    <button class="continue"><span>icon</span><a href="product_page.php"
+                                                                                 style="color: #000">Continue
+                                            Shopping</a></button>
+                                    <button class="update" for="quantityUpdate"><span>icon</span>Update Shopping Cart
+                                    </button>
 
-                    </td>
-                </tr>
-                <form>
+
+                                </td>
+                            </tr>
+                            <form>
             </table>
         </div><!-- .grid_12 -->
 
@@ -136,23 +143,22 @@ ON incart.product_id=product.product_id;";
     </div><!-- .container_12 -->
 </section><!-- #main -->
 
-<div class="clear"></div>
-<div class="div-clear"></div>
+<!--<div class="clear"></div>-->
+<!--<div class="div-clear"></div>-->
 <!--<div class="grid_4">-->
 <div class="bottom_block total">
     <table class="subtotal">
         <tr>
             <td>Subtotal</td>
-            <td class="price" id="subtotal">$1, 500.00</td>
+            <td class="price" id="subtotal">Total price before taxes</td>
         </tr>
         <tr class="grand_total">
             <td>Grand Total</td>
-            <td class="price" id="grandtotal">$1, 500.00</td>
+            <td class="price" id="grandtotal">Grand Total Price</td>
         </tr>
     </table>
     <button class="checkout">PROCEED TO CHECKOUT</button>
 </div><!-- .total -->
-</div><!-- .grid_4 -->
 <!-- Footer -->
 <div class="footer"><br><br>
     <footer id="footer">
@@ -194,7 +200,7 @@ ON incart.product_id=product.product_id;";
         </table>
 
     </footer>
-    </div>
+</div>
 <script type="text/javascript">
 
      var inputsS = document.getElementsByClassName('subtotal1');
