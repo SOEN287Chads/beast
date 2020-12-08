@@ -109,7 +109,7 @@ session_start();
                                                                                                                                     if (isset($_GET['brand']) &&  in_array($row->brand_id, $_GET['brand'])) {
                                                                                                                                         echo "checked";
                                                                                                                                     }
-                                                                                                                                    ?> /> <?php echo $row->brand_name; ?>
+                                                                                                                                ?> /> <?php echo $row->brand_name; ?>
                                                     </label>
                                                 </a>
                                             </li>
@@ -235,7 +235,7 @@ session_start();
                                     }
                                 }
                             } else {
-                                $query .= "and (brand_id = " . $_GET['brand'][0] . ")";
+                                $query .= "(brand_id = " . $_GET['brand'][0] . ")";
                             }
                         } else if (isset($_GET['price'])) {
                             $prices = explode("to", $_GET['price']);

@@ -38,9 +38,11 @@ CREATE TABLE `brand` (
 
 INSERT INTO `brand` (`brand_id`, `brand_name`) VALUES
 (1, 'NIKE'),
-(2, 'ADIDAS'),
-(3, 'UNDER ARMOUR'),
-(4, 'GYM SHARK');
+(2, 'LOLE'),
+(3, 'EVER LAST'),
+(4, 'GYM SHARK'),
+(5, 'POLAR'),
+(6, 'MCDAVID');
 
 -- --------------------------------------------------------
 
@@ -110,17 +112,17 @@ CREATE TABLE `product` (
 
 INSERT INTO `product` (`product_id`, `product_name`, `product_price`, `product_desc`, `product_img`, `cat_id`, `brand_id`, `featured`, `date`) VALUES
 (1, 'Lifting Gloves', 25, 'Gymshark Lifting Gloves', 'LiftingGloves/img-1.jpg\r\n', 5, 4, 0, '2020-12-06 11:38:59'),
-(2, 'Skipping Rope', 25, 'Gymshark Skipping Rope', 'SkippingRope/img-1.jpg\r\n\r\n', 4, 3, 1, '2020-12-06 11:38:59'),
+(2, 'Skipping Rope', 25, 'Gymshark Skipping Rope', 'SkippingRope/img-1.jpg\r\n\r\n', 4, 4, 1, '2020-12-06 11:38:59'),
 (3, 'Resistant Tube', 20, 'Gymshark Resistant Tube', 'ResistantTube/img-1.jpg', 2, 4, 0, '2020-12-06 11:43:59'),
 (4, 'Fruit Infuser', 20, 'Gymshark ruit Infuser', 'FruitInfuser/img-1.jpg', 5, 4, 0, '2020-12-06 11:45:59'),
 (5, 'Boxing Gloves', 50, 'Everlast Boxing Gloves', 'BoxingGloves/img-1.jpg', 1, 3, 1, '2020-12-06 11:45:59'),
 (6, 'Nike Headband', 10, 'Nike Headband', 'NikeHeadband/img-1.jpg', 5, 1, 0, '2020-12-06 11:45:59'),
 (7, 'Lole Yoga Mat', 70, 'Lole Yoga Mat', 'YogaMat/img-1.jpg', 2, 2, 0, '2020-12-06 11:45:59'),
-(8, 'Polar Smart Watch', 389, 'Polar Smart Watch', 'SmartWatch/img-1.jpg', 5, 2, 0, '2020-12-06 11:49:59'),
-(9, 'Knee Sleeve', 32, 'McDavid Knee Sleeve', 'KneeSleeve/img-1.jpg', 3, 3, 1, '2020-12-06 11:45:59'),
-(10, 'Ankle Sleeve ', 30, 'McDavid Ankle Sleeve', 'AnkleSleeve/img-1.jpg', 3, 3, 1, '2020-12-06 11:55:59'),
+(8, 'Polar Smart Watch', 389, 'Polar Smart Watch', 'SmartWatch/img-1.jpg', 5, 5, 0, '2020-12-06 11:49:59'),
+(9, 'Knee Sleeve', 32, 'McDavid Knee Sleeve', 'KneeSleeve/img-1.jpg', 3, 6, 1, '2020-12-06 11:45:59'),
+(10, 'Ankle Sleeve ', 30, 'McDavid Ankle Sleeve', 'AnkleSleeve/img-1.jpg', 3, 6, 1, '2020-12-06 11:55:59'),
 (11, 'Nike Bottle\r\n', 10, 'Nike Bottle', 'NikeBottle/img-1.jpg', 5, 1, 0, '2020-12-06 11:56:59'),
-(12, 'Everlast Punch Mitts', 50, 'Everlast Punch Mitts', 'PunchMitts/img-1.jpg', 1, 2, 1, '2020-12-06 11:58:59'),
+(12, 'Everlast Punch Mitts', 50, 'Everlast Punch Mitts', 'PunchMitts/img-1.jpg', 1, 3, 1, '2020-12-06 11:58:59'),
 (13, 'Phone Armband', 25, 'Nike Phone Armband', 'SmartphoneArmband/img-1.jpg', 3, 1, 1, '2020-12-06 11:59:59'),
 (14, 'Striking Ball', 299, 'Everlast Striking Ball', 'StrikingBall/img-1.jpg', 5, 3, 1, '2020-12-06 11:59:59'),
 (15, 'Sack Pack', 19, 'Everlast Sack Pack', 'SackPack/img-1.jpg', 3, 3, 0, '2020-12-06 12:00:59');
