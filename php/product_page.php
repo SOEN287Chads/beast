@@ -187,6 +187,7 @@ session_start();
                                             </label>
                                         </a>
                                     </li>
+                                    <li><a href="product_page.php">Reset</a></li>
                                 </ul>
                             </div>
                         </div>
