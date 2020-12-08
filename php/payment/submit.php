@@ -8,7 +8,7 @@ if (isset($_POST['stripeToken'])) {
 	$token = $_POST['stripeToken'];
 
 	$data = \Stripe\Charge::create(array(
-		"amount" => 1000,
+		"amount" => intval($_COOKIE['Total']) * 100,
 		"currency" => "usd",
 		"description" => "Payment Checkout",
 		"source" => $token,
@@ -34,11 +34,9 @@ $mail->addAddress($_SESSION["email"], "Customer");
 $mail->isHTML(true);
 
 $mail->Subject = 'BeastFit: Order Placed';
-$mail->Body = "Dear Customer, <br> <br>
-Your order of $ " + $_COOKIE['price'] + " has been placed. You will be updated with the status of your delivery. <br>
-Thank you for shopping with us, we hope you had a great experience!<br> <br>
-Warm regards, <br>
-The BeastFit Team";
+$mail->Body = "Dear Customer, <br>
+Your order of $ " . $_COOKIE['Total'] . " has been placed. You will be updated with the status of your delivery. <br> Thank you for shopping with us, we hope you had a great experience! <br>
+Warm regards, <br> The BeastFit Team";
 
 if (!$mail->send()) {
 	echo 'Mailer Error: ' . $mail->ErrorInfo;
@@ -50,7 +48,7 @@ if (!$mail->send()) {
 <body style="background-color:black;">
 	<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 	<center>
-		<h1 style='font-family: "Monument Extended", Arial, Helvetica, sans-serif; color: white; '>Order Place Successfully!<br> </h1>
+		<h1 style='font-family: "Monument Extended", Arial, Helvetica, sans-serif; color: white; '>Order Placed Successfully!<br> </h1>
 		<h2 style='font-family: "Monument Extended", Arial, Helvetica, sans-serif; color: grey; '>Thank you for choosing to shop with us.</h2>
 		<br>
 		<hr size="3" width="500">
