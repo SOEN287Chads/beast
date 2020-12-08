@@ -113,15 +113,15 @@ session_start();
         <div class="contact-us">
           <div class="fname">
             <i class="fa fa-user" aria-hidden="true"></i>
-            <input type="text" id="fname" name="firstname" placeholder="    First Name" required>
+            <input type="text" class="contact-input" id="fname" name="firstname" placeholder="    First Name" required>
           </div>
           <div class="lname">
             <i class="fa fa-user" aria-hidden="true"></i>
-            <input type="text" id="lname" name="lastname" placeholder="    Last Name" required>
+            <input type="text" class="contact-input" id="lname" name="lastname" placeholder="    Last Name" required>
           </div>
           <div class="email">
             <i class="fa fa-envelope"></i>
-            <input type="email" id="email" name="senderemail" placeholder="    Email" required>
+            <input type="email" class="contact-input" id="email" name="senderemail" placeholder="    Email" required>
           </div>
           <div class="subject">
             <textarea rows="5" id="subject" name="subject" placeholder="What is your query?" required></textarea>
@@ -147,7 +147,7 @@ session_start();
     </div>
   </section>
 
-  
+
   <script src="../javascript/PHPnavbarandfooter.js"></script>
 </body>
 

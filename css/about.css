@@ -158,6 +158,10 @@ h1, h2, p {
   font-size: 30px;
 }
 
+.contact-input {
+  padding-left: 45px;
+}
+
 .fname {
   margin-top: 6%;
   width: 90%;
