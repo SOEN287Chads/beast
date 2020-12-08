@@ -34,7 +34,7 @@ session_start();
       <ul class="navbar">
         <li><a href="home.php">HOME</a></li>
         <li><a href="about.php">ABOUT</a></li>
-        <li><a href="ProductPage.php">PRODUCTS</a></li>
+        <li><a href="product_page.php">PRODUCTS</a></li>
         <li><a href="about.php#fname">CONTACT</a></li>
         <li><a href="trainer1.php">TRAINERS</a></li>
       </ul>
@@ -134,7 +134,7 @@ session_start();
               $lastname = $_POST['lastname'];
               $to = 'thebeastfitteam@gmail.com';
               $subject = 'BeastFt Contact Form';
-              $from = $_POST['email'];
+              $from = $_POST['senderemail'];
               $name = $_POST['firstname'] . $_POST['lastname'];
               $subject = $_POST['subject'];
               mail($to, "$subject from: $from name: $firstname $lastname", $subject);

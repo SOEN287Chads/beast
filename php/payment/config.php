@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 require('stripe-php-master/init.php');
 
 $publishableKey = "pk_test_51HvBwvBtqDmjVy7uJUTF0jvK2tByGSmoZYW0XlBc44aNvNOLQCoAOufUyhl1TAN9BUETOhyhNrnIie0jZRoyCDoX0084Lgfs09";
