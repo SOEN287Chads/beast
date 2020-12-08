@@ -5,6 +5,35 @@ body {
     font-size: 15px;
 }
 
+/* Side Nav */
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    right: 10px;
+    background: none;
+    overflow-x: hidden;
+    font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    font-size: 28px;
+    display: block;
+    color: #004c74;
+    opacity: 0.3;
+    transition: all .5s ease 0s;
+  }
+  
+  .sidenav a:hover {
+    color: #004c74;
+    opacity: 5;
+    animation: bounce 1.3s;
+    animation-iteration-count: infinite;
+  }
+
 /*Fonts*/
 @font-face {
     font-family: OpenSans-Regular;

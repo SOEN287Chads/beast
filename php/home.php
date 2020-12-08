@@ -30,11 +30,11 @@ session_start();
     <div>
         <nav>
             <ul class="navbar">
-                <li><a href="home.php">HOME</a></li>
-                <li><a href="about.php">ABOUT</a></li>
-                <li><a href="../html/product_page.php">PRODUCTS</a></li>
-                <li><a href="about.php#fname">CONTACT</a></li>
-                <li><a href="trainer1.php">TRAINERS</a></li>
+                <li><a href="../php/home.php">HOME</a></li>
+                <li><a href="../php/about.php">ABOUT</a></li>
+                <li><a href="../php/product_page.php">PRODUCTS</a></li>
+                <li><a href="../php/about.php#fname">CONTACT</a></li>
+                <li><a href="../php/trainer1.php">TRAINERS</a></li>
             </ul>
         </nav>
         <?php

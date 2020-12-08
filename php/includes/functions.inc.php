@@ -21,7 +21,7 @@ function emailExists($con, $email)
     $sql = "SELECT * FROM Users WHERE Email = ? ;";
     $stmt = mysqli_stmt_init($con);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
-        header("location: ../error1.php");
+        header("location: ../php/error.php");
         exit();
     }
 
@@ -44,7 +44,7 @@ function createUser($con, $email, $password)
     $stmt2 = mysqli_stmt_init($con);
 
     if (!mysqli_stmt_prepare($stmt2, $sql2)) {
-        header("location: /error2.php");
+        header("location: ../php/error.php");
         exit();
     }
 

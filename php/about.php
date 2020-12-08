@@ -32,11 +32,11 @@ session_start();
   <div id="navigationbar">
     <nav class="nav">
       <ul class="navbar">
-        <li><a href="home.php">HOME</a></li>
-        <li><a href="about.php">ABOUT</a></li>
-        <li><a href="../html/product_page.php">PRODUCTS</a></li>
-        <li><a href="about.php#fname">CONTACT</a></li>
-        <li><a href="trainer1.php">TRAINERS</a></li>
+      <li><a href="../php/home.php">HOME</a></li>
+      <li><a href="../php/about.php">ABOUT</a></li>
+      <li><a href="../php/product_page.php">PRODUCTS</a></li>
+      <li><a href="../php/about.php#fname">CONTACT</a></li>
+      <li><a href="../php/trainer1.php">TRAINERS</a></li>
       </ul>
     </nav>
     <?php
@@ -134,7 +134,7 @@ session_start();
               $lastname = $_POST['lastname'];
               $to = 'thebeastfitteam@gmail.com';
               $subject = 'BeastFt Contact Form';
-              $from = $_POST['email'];
+              $from = $_POST['senderemail'];
               $name = $_POST['firstname'] . $_POST['lastname'];
               $subject = $_POST['subject'];
               mail($to, "$subject from: $from name: $firstname $lastname", $subject);
@@ -147,7 +147,9 @@ session_start();
     </div>
   </section>
 
-
+  <div class="container"><br><br>
+    <footer id="footer"></footer>
+  </div>
   <script src="../javascript/PHPnavbarandfooter.js"></script>
 </body>
 

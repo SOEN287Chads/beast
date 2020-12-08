@@ -35,7 +35,7 @@ $mail->isHTML(true);
 
 $mail->Subject = 'BeastFit: Order Placed';
 $mail->Body = "Dear Customer, <br> <br>
-Your order of $10 has been placed. You will be updated with the status of your delivery. <br>
+Your order of $ " + $_COOKIE['price'] + " has been placed. You will be updated with the status of your delivery. <br>
 Thank you for shopping with us, we hope you had a great experience!<br> <br>
 Warm regards, <br>
 The BeastFit Team";

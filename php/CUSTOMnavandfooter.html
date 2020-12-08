@@ -18,11 +18,28 @@
 </head>
 
 <body>
-    <div id="navigationbar"></div>
+    <div id="navigationbar">
+        <nav class="nav">
+            <ul class="navbar">
+                <li><a href="../home.php">HOME</a></li>
+                <li><a href="../about.php">ABOUT</a></li>
+                <li><a href="../product_page.php">PRODUCTS</a></li>
+                <li><a href="../about.php#fname">CONTACT</a></li>
+                <li><a href="../trainer1.php">TRAINERS</a></li>
+            </ul>
+        </nav>
+        <?php
+        if (isset($_SESSION["email"])) {
+          echo '<a href="includes/logout.inc.php" class="loginSignUp">LOG OUT</a>';
+        } else {
+          echo '<a href="signUp.php" class="loginSignUp">SIGN UP!</a>';
+        }
+        ?>
+    </div>
     <div class="container"><br><br>
         <footer id="footer"></footer>
     </div>
-    <script src="../../javascript/CUSTOMnavbarandfooter.js"></script>
+    <script src="../../javascript/PHPnavbarandfooter.js"></script>
 </body>
 
 </html>
